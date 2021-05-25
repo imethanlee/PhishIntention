@@ -14,19 +14,17 @@ class teleBot():
     def __init__(self):
         updater = Updater(token='1374525802:AAE7X8xA-zoqKPw-viwcuv9MLrjYnerarfA', use_context=True)
 
-
         self.dict_date = {}
         dispatcher = updater.dispatcher
-        self.sheets = gwrapper()
-        start_handler = CommandHandler('start', self.start)
+        self.sheets = gwrapper() # google sheet wrapper
+        start_handler = CommandHandler('start', self.start) # "start" command
         dispatcher.add_handler(start_handler)
-        poll_handler = PollHandler(self.poll)
+        poll_handler = PollHandler(self.poll) # poll handler
         dispatcher.add_handler(poll_handler)
-        stat_handler = CommandHandler('get', self.get_stats)
+        stat_handler = CommandHandler('get', self.get_stats) # "get" command
         dispatcher.add_handler(stat_handler)
         updater.start_polling()
         updater.idle()
-
 
     def poll(self, update, context):
 
@@ -37,9 +35,9 @@ class teleBot():
         unsure = update['poll']['options'][2]['voter_count']
         try:
             self.sheets.update_cell(question_id, yes, no,unsure) # update google sheet by voting results
-        except Exception as e:
+        except Exception as e: # retry if encounter error
             time.sleep(5)
-            self.poll(update,context)
+            self.poll(update, context)
  
     def get_stats(self, update, context):
         # get statistics
@@ -55,18 +53,19 @@ class teleBot():
         for i in range(len(rows)):
             row = rows[i]
 
-            if date =='all' or date ==row['date']:
+            if date =='all' or date == row['date']:
                 if row['unsure'] !=0:
                     unsure+=1
-                elif row['yes'] >0 and row['no'] == 0:
-                    phishing +=1
-                elif row['yes'] == 0  and row['no'] >0:
-                    non_phishing+=1
+                elif row['yes'] > 0 and row['no'] == 0:
+                    phishing += 1
+                elif row['yes'] == 0  and row['no'] > 0:
+                    non_phishing += 1
                 elif row['yes'] == 0 and row['no'] == 0:
-                    unanswered +=1
+                    unanswered += 1
                 elif row['yes'] >0  and row['no']>0:
-                    ambigious+=1
+                    ambigious += 1
 
+        # print stats
         message  = "unaswered:{}\n ambigious:{}\n phishing:{}\n nonphishing:{} \n unsure:{}".format(str(unanswered),str(ambigious),str(phishing),str(non_phishing),str(unsure))
         context.bot.send_message(chat_id=update.effective_chat.id, text=message)
 
@@ -84,13 +83,13 @@ class teleBot():
                 if j in folder_names: # have appeared in google sheet, ignore
                     continue
                 else:
-                    info_file = os.path.join(data_folder, 'info.txt')
+                    info_file = os.path.join(data_folder, 'info.txt') # read URL
                     if os.path.exists(info_file):
                         with open(info_file, 'r') as f:
                             url = f.readline()
                     else:
                         url = "Cannot find info file"
-                    to_update.append([i, url, j, 0, 0, 0, 0, 0, 0])
+                    to_update.append([i, url, j, 0, 0, 0, 0, 0, 0]) # initialize poll with 0
         self.sheets.update_list(to_update)
 
 
@@ -111,6 +110,7 @@ class teleBot():
                 path =  os.path.join(folder_path, 'predict.png') # push the predicted image
                 try:
                     context.bot.send_photo(chat_id=update.effective_chat.id,photo= open(path,'rb'))
+                    # ask user to label screenshot, url truncated to first 100 characters
                     context.bot.send_poll(chat_id=update.effective_chat.id, options=['phishing', 'not','unsure'], question=str(i+2)+'~'+row['url'][:100],)
                     time.sleep(5)
                 except RetryAfter as e: # if error retry
@@ -121,7 +121,7 @@ class teleBot():
                     context.bot.send_message(chat_id=update.effective_chat.id, text='unable to display image')
                     context.bot.send_poll(chat_id=update.effective_chat.id, options=['phishing', 'not','unsure'], question=str(i+2)+'~'+row['url'][:100],)
 
-    def _map_date_to_folder(self,date):
+    def _map_date_to_folder(self, date):
         return str(date)
 
 if __name__ == '__main__':
