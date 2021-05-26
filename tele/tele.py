@@ -11,10 +11,11 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 import time
 
 class teleBot():
-    def __init__(self):
-        updater = Updater(token='1374525802:AAE7X8xA-zoqKPw-viwcuv9MLrjYnerarfA', use_context=True)
+    def __init__(self, token, folder):
+        updater = Updater(token=token, use_context=True)
 
         self.dict_date = {}
+        self.folder = folder
         dispatcher = updater.dispatcher
         self.sheets = gwrapper() # google sheet wrapper
         start_handler = CommandHandler('start', self.start) # "start" command
@@ -74,7 +75,7 @@ class teleBot():
         rows = self.sheets.get_records()
         print(rows)
         folder_names = list(map(lambda x: x['foldername'], rows))
-        base = 'D:/ruofan/PhishIntention/datasets/PhishDiscovery/Phishpedia' # FIXME: change this folder
+        base = self.folder
         to_update = []
         for i in os.listdir(base):
             folder = os.path.join(base, i)
@@ -99,7 +100,7 @@ class teleBot():
 
         self.update_file()
         # data folder
-        base =  'D:/ruofan/PhishIntention/datasets/PhishDiscovery/Phishpedia' # FIXME: change this folder
+        base = self.folder
 
         context.bot.send_message(chat_id=update.effective_chat.id, text="Time to get to work ")
         rows = self.sheets.get_records()
@@ -125,4 +126,6 @@ class teleBot():
         return str(date)
 
 if __name__ == '__main__':
-    teleBot()
+    token = 'xxxx' # FIXME: user need to change this
+    folder = "D:\\ruofan\\PhishIntention\\datasets\\PhishDiscovery\\Phishpedia" # FIXME: change this folder
+    teleBot(token, folder)
