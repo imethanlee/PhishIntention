@@ -1,7 +1,7 @@
 from telegram.ext import Updater
 from telegram.ext import CommandHandler
 from telegram.ext import PollHandler
-from tele.gsheets import gwrapper
+from gsheets import gwrapper
 import logging
 import os
 from telegram.error import RetryAfter
@@ -133,8 +133,3 @@ class teleBot():
 
 if __name__ == '__main__':
     teleBot()
-# if __name__ == '__main__':
-#     # token = '1374525802:AAE7X8xA-zoqKPw-viwcuv9MLrjYnerarfA' # FIXME: user need to change this
-#     token = '1778754721:AAFcoFrUj6dyZ8JXlDlMDyvOsoZ9_DvhdzA'
-#     folder = "D:\\ruofan\\PhishIntention\\datasets\\PhishDiscovery_2nd\\Phishpedia" # FIXME: change this folder
-#     teleBot(token, folder)
