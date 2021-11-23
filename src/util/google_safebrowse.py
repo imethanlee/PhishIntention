@@ -1,20 +1,3 @@
-# -*- coding: utf-8 -*-
-# Copyright 2015 Julien Sobrier
-# All Rights Reserved.
-#
-# Licensed under the Apache License, Version 2.0 (the "License"); you may
-# not use this file except in compliance with the License. You may obtain
-# a copy of the License at
-#
-# http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-# WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
-# License for the specific language governing permissions and limitations
-# under the License.
-#
-# modified by Alexander Bikadorov, 2012 (abiku@cs.tu-berlin.de)
 
 """ Version 0.2.0
 
@@ -27,149 +10,126 @@ You need to get an API key from Google at http://code.google.com/apis/safebrowsi
 import urllib.request
 import re
 import http.client
+import requests
+import json
+from pysafebrowsing import SafeBrowsing
+from datetime import date, timedelta
+import json
+import time
+import os
+import pandas as pd
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
+import pprint
+import pandas as pd
+from gspread.models import Cell
+import numpy as np
 
-class SafebrowsinglookupClient(object):
-    def __init__(self, key='', debug=0, error=0):
-        """ Create a new client. You must pass your Google API key (http://code.google.com/apis/safebrowsing/key_signup.html).
+# api_key = 'AIzaSyBfGrp3D80GN7CB2rEnp_TtmLjLnqvbQpg'
+api_key = 'AIzaSyB6IL1wAQZZEh1fil04YIUNTzi1EsXR1ls'
+# api_key = 'AIzaSyAGlId-l2ePh7TimYgyOz0AbcSZXSgWd58'
 
-            Arguments:
-                key: API key.
-                debug: Set to 1 to print debug & error output to the standard output. 0 (disabled) by default.
-                error: Set to 1 to print error output to the standard output. 0 (disabled) by default.
-        """
-        self.key = key
-        self.debug = debug
-        self.error = error
-        self.last_error = ''
-        self.version = '0.2'
-        self.api_version = '3.1'
+def daterange(start_date, end_date):
+    for n in range(int((end_date - start_date).days)):
+        yield start_date + timedelta(n)
 
-        if self.key == '':
-            raise ValueError("Missing API key")
+def call_gs_browsing(date_):
+    # TODO check the URLs after 1 month to get FNs
+    '''check how many'''
+    with open('{}_safebrowsing.json'.format(date_), 'r') as f:
+        results = json.load(f)
+    print(len(results))
 
-    def lookup(self, *urls):
-        """ Lookup a list of URLs against the Google Safe Browsing v2 lists.
+    '''call google sb'''
+    try:
+        df = [x.strip().split('\t') for x in open('./{}.txt'.format(date_), encoding='ISO-8859-1').readlines()]
+    except FileNotFoundError:
+        exit()
+    urls = [x[1] for x in df[1:]]
+    results = []
+    if os.path.exists('{}_safebrowsing.json'.format(date_)):
+        with open('{}_safebrowsing.json'.format(date_), 'r') as f:
+            results = json.load(f)
+    print(len(results))
 
-            Returns a hash <url>: <Gooogle match>. The possible values for <Gooogle match> are: "ok" (no match), "malware", "phishing", "malware,phishing" (match both lists) and "error".
+    for url in urls:
+        print(url)
+        if os.path.exists('{}_safebrowsing.json'.format(date_)):
+            if url in open('{}_safebrowsing.json'.format(date_)).read():
+                print('skip')
+                continue
+        s = SafeBrowsing(api_key)
+        try:
+            r = s.lookup_urls([url])
+        except:
+            continue
+        results.append(r)
+    with open('{}_safebrowsing.json'.format(date_), 'w') as f:
+        json.dump(results, f)
 
-            Arguments:
-                urls: List of URLs to lookup. The Lookup API allows only 10,000 URL checks a day. If you need more, use the official Google Safe Browsing v2 API implementation (http://code.google.com/p/google-safe-browsing/downloads/list). Each requests must contain 500 URLs at most. The lookup() method will split the list of URLS in blocks of 500 URLs if needed.
-        """
-        results = {}
-        count = 0
-        while count * 500 < len(urls):
-            inputs = urls[count * 500: (count + 1) * 500]
-            # body = len(inputs)
-            body = str(len(inputs))
 
-            for url in inputs:
-                body += "\n" + self.__canonical(url)
+def get_fn_fromgs(date_):
 
-            self.__debug("BODY:\n" + body + "\n\n")
-            url = 'https://sb-ssl.google.com/safebrowsing/api/lookup?client=%s&key=%s&appver=%s&pver=%s' % (
-            'python', self.key, self.version, self.api_version)
-            self.__debug("URL: %s" % (url))
+    result_txt = './{}.txt'.format(date_)
+    df = [x.strip().split('\t') for x in open(result_txt, encoding='ISO-8859-1').readlines()]
+    df_pos = [x for x in df if (len(x) >= 3) and (x[2] == '1')]
+    intention_pos_folder = np.asarray([x[0] for x in df_pos])
+    intention_pos_urls = np.asarray([x[1] for x in df_pos])
+    intention_pos_date = np.asarray([date_] * len(intention_pos_urls))
 
-            response = ''
-            try:
-                response = urllib.request.urlopen(url, body.encode('utf8'))
-            except Exception as e:
-                if hasattr(e, 'code') and e.code == http.client.NO_CONTENT:  # 204
-                    self.__debug("No match\n")
-                    results.update(self.__ok(inputs))
+    with open('{}_safebrowsing.json'.format(date_), 'r') as f:
+        results = json.load(f)
+    urls = [list(x.keys())[0] for x in results]
+    maliciousness = [list(x.values())[0]['malicious'] for x in results]
+    gs_df = pd.DataFrame({'url':urls, 'maliciousness':maliciousness})
+    gs_pos_urls = list(gs_df.loc[gs_df['maliciousness']==True]['url'])
 
-                # elif hasattr(e, 'code') and e.code == httplib.BAD_REQUEST:  # 400
-                elif hasattr(e, 'code') and e.code == http.client.BAD_REQUEST:  # 400
-                    self.__error("Invalid request")
-                    results.update(self.__errors(inputs))
+    isreported_by_intention = np.isin(intention_pos_urls, gs_pos_urls)
 
-                elif hasattr(e, 'code') and e.code == http.client.UNAUTHORIZED:  # 401
-                    self.__error("Invalid API key")
-                    results.update(self.__errors(inputs))
+    intention_fn_folder = intention_pos_folder[isreported_by_intention == False]
+    intention_fn_urls = intention_pos_urls[isreported_by_intention == False]
+    intention_fn_date = intention_pos_date[isreported_by_intention == False]
 
-                elif hasattr(e, 'code') and e.code == http.client.FORBIDDEN:  # 403 (should be 401)
-                    self.__error("Invalid API key")
-                    results.update(self.__errors(inputs))
+    intention_tp_folder = intention_pos_folder[isreported_by_intention == True]
+    intention_tp_urls = intention_pos_urls[isreported_by_intention == True]
+    intention_tp_date = intention_pos_date[isreported_by_intention == True]
 
-                elif hasattr(e, 'code') and e.code == http.client.SERVICE_UNAVAILABLE:  # 503
-                    self.__error("Server error, client may have sent too many requests")
-                    results.update(self.__errors(inputs))
+    return intention_fn_date, intention_fn_folder, intention_fn_urls, \
+           intention_tp_date, intention_tp_folder, intention_tp_urls
 
-                else:
-                    self.__error("Unexpected server response")
-                    self.__debug(e)
-                    results.update(self.__errors(inputs))
-            else:
-                # response_read = response.read()
-                response_read = response.read().decode('utf8')
-                if not response_read:
-                    self.__debug("No match\n")
-                    results.update(self.__ok(inputs))
-                else:
-                    self.__debug("At least 1 match\n")
-                    results.update(self.__parse(response_read.strip(), inputs))
 
-            count = count + 1
+class gwrapperFN():
+    def __init__(self):
+        scope = [
+            'https://www.googleapis.com/auth/drive',
+            'https://www.googleapis.com/auth/drive.file'
+        ]
+        file_name = 'tele/cred.json'
+        creds = ServiceAccountCredentials.from_json_keyfile_name(file_name, scope)
+        client = gspread.authorize(creds)
+        # Fetch the sheet
+        self.sheet = client.open('Phishintention_FN_GoogleSafe').sheet1
 
-        return results
+    def get_records(self):
+        return self.sheet.get_all_records()
 
-    # Private methods
-
-    # Not much is actually done, full URL canonicalization is not required with the Lookup library according to the API documentation
-    def __canonical(self, url=''):
-        # remove leading/ending white spaces
-        url = url.strip()
-
-        # Remove any embedded tabs and CR/LF characters which aren't escaped.
-        url = url.replace('\t', '').replace('\r', '').replace('\n', '')
-
-        # make sure whe have a scheme
-        scheme = re.compile("https?\:\/\/", re.IGNORECASE)
-        if scheme.match(url) is None:
-            url = "http://" + url
-
-        return url
-
-    def __parse(self, response, urls):
-        lines = response.splitlines()
-
-        if (len(urls) != len(lines)):
-            self.__error("Number of URLs in the response does not match the number of URLs in the request");
-            self.__debug(str(len(urls)) + " / " + str(len(lines)))
-            self.__debug(response);
-            return self.__errors(urls);
-
-        results = {}
-        for i in range(0, len(lines)):
-            results.update({urls[i]: lines[i]})
-
-        return results
-
-    def __errors(self, urls):
-        results = {}
-        for url in urls:
-            results.update({url: 'error'})
-
-        return results
-
-    def __ok(self, urls):
-        results = {}
-        for url in urls:
-            results.update({url: 'ok'})
-
-        return results
-
-    def __debug(self, message=''):
-        if self.debug == 1:
-            print(message)
-
-    def __error(self, message=''):
-        if self.debug == 1 or self.error == 1:
-            print(message + "\n")
-            self.last_error = message
+    def update_list(self, to_update):
+        rows = self.get_records()
+        folder_names = list(map(lambda x: x['URLs'], rows))
+        if np.isin(to_update[0][2], folder_names).any():
+            return
+        self.sheet.append_rows(to_update)
 
 
 if __name__ == '__main__':
-    googlesafe = SafebrowsinglookupClient(key='AIzaSyBfGrp3D80GN7CB2rEnp_TtmLjLnqvbQpg')
-    results = googlesafe.lookup(*['http://www.google.com/', 'http://www.google.org/'])
-    print(results)
+    # call_gs_browsing(date_=date(2021, 10, 28).strftime("%Y-%m-%d"))
+    intention_fn_date, intention_fn_folder, intention_fn_urls, \
+    intention_tp_date, intention_tp_folder, intention_tp_urls =  get_fn_fromgs(date(2021, 10, 19).strftime("%Y-%m-%d"))
+
+    gs = gwrapperFN()
+    for i in range(len(intention_fn_urls)):
+        toupdate = [[intention_fn_date[i], intention_fn_folder[i], intention_fn_urls[i], 'no']]
+        gs.update_list(toupdate)
+    for i in range(len(intention_tp_urls)):
+        toupdate = [[intention_tp_date[i], intention_tp_folder[i], intention_tp_urls[i], 'yes']]
+        gs.update_list(toupdate)
