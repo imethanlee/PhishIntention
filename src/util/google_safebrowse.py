@@ -73,26 +73,36 @@ def get_fn_fromgs(date_):
     result_txt = './{}.txt'.format(date_)
     df = [x.strip().split('\t') for x in open(result_txt, encoding='ISO-8859-1').readlines()]
     df_pos = [x for x in df if (len(x) >= 3) and (x[2] == '1')]
-    intention_pos_folder = np.asarray([x[0] for x in df_pos])
     intention_pos_urls = np.asarray([x[1] for x in df_pos])
-    intention_pos_date = np.asarray([date_] * len(intention_pos_urls))
 
     with open('{}_safebrowsing.json'.format(date_), 'r') as f:
         results = json.load(f)
     urls = [list(x.keys())[0] for x in results]
     maliciousness = [list(x.values())[0]['malicious'] for x in results]
-    gs_df = pd.DataFrame({'url':urls, 'maliciousness':maliciousness})
-    gs_pos_urls = list(gs_df.loc[gs_df['maliciousness']==True]['url'])
+    assert len(urls) == len(maliciousness)
+    gs_df = pd.DataFrame({'url': urls, 'maliciousness': maliciousness})
+    gs_pos_urls = list(gs_df.loc[gs_df['maliciousness'] == True]['url'])
+    # corresponding folders
+    gs_pos_folders = []
+    for j in range(len(gs_pos_urls)):
+        for i in range(len(df)):
+            if df[i][1] == gs_pos_urls[j]:
+                gs_pos_folders.append(df[i][0])
+                break
 
-    isreported_by_intention = np.isin(intention_pos_urls, gs_pos_urls)
+    gs_pos_urls = np.asarray(gs_pos_urls)
+    gs_pos_folders = np.asarray(gs_pos_folders)
+    assert len(gs_pos_folders) == len(gs_pos_folders)
 
-    intention_fn_folder = intention_pos_folder[isreported_by_intention == False]
-    intention_fn_urls = intention_pos_urls[isreported_by_intention == False]
-    intention_fn_date = intention_pos_date[isreported_by_intention == False]
+    isreported_by_intention = np.isin(np.asarray(gs_pos_urls), intention_pos_urls) # if google safebrowsing URLS is not reported by phishintention
 
-    intention_tp_folder = intention_pos_folder[isreported_by_intention == True]
-    intention_tp_urls = intention_pos_urls[isreported_by_intention == True]
-    intention_tp_date = intention_pos_date[isreported_by_intention == True]
+    intention_fn_folder = gs_pos_folders[isreported_by_intention == False]
+    intention_fn_urls = gs_pos_urls[isreported_by_intention == False]
+    intention_fn_date = [date_] * len(intention_fn_urls)
+
+    intention_tp_folder = gs_pos_folders[isreported_by_intention == True]
+    intention_tp_urls = gs_pos_urls[isreported_by_intention == True]
+    intention_tp_date = [date_] * len(intention_tp_folder)
 
     return intention_fn_date, intention_fn_folder, intention_fn_urls, \
            intention_tp_date, intention_tp_folder, intention_tp_urls
@@ -109,27 +119,30 @@ class gwrapperFN():
         client = gspread.authorize(creds)
         # Fetch the sheet
         self.sheet = client.open('Phishintention_FN_GoogleSafe').sheet1
+        self.rows = self.get_records()
 
     def get_records(self):
         return self.sheet.get_all_records()
 
     def update_list(self, to_update):
-        rows = self.get_records()
-        folder_names = list(map(lambda x: x['URLs'], rows))
+        folder_names = list(map(lambda x: x['URLs'], self.rows))
         if np.isin(to_update[0][2], folder_names).any():
             return
         self.sheet.append_rows(to_update)
 
 
 if __name__ == '__main__':
-    # call_gs_browsing(date_=date(2021, 10, 28).strftime("%Y-%m-%d"))
-    intention_fn_date, intention_fn_folder, intention_fn_urls, \
-    intention_tp_date, intention_tp_folder, intention_tp_urls =  get_fn_fromgs(date(2021, 10, 19).strftime("%Y-%m-%d"))
-
-    gs = gwrapperFN()
-    for i in range(len(intention_fn_urls)):
-        toupdate = [[intention_fn_date[i], intention_fn_folder[i], intention_fn_urls[i], 'no']]
-        gs.update_list(toupdate)
-    for i in range(len(intention_tp_urls)):
-        toupdate = [[intention_tp_date[i], intention_tp_folder[i], intention_tp_urls[i], 'yes']]
-        gs.update_list(toupdate)
+    call_gs_browsing(date_=date(2021, 10, 29).strftime("%Y-%m-%d"))
+    # intention_fn_date, intention_fn_folder, intention_fn_urls, \
+    # intention_tp_date, intention_tp_folder, intention_tp_urls =  get_fn_fromgs(date(2021, 10, 27).strftime("%Y-%m-%d"))
+    #
+    # gs = gwrapperFN()
+    # for i in range(len(intention_fn_urls)):
+    #     toupdate = [[intention_fn_date[i], intention_fn_folder[i], intention_fn_urls[i], 'no', '']]
+    #     time.sleep(1)
+    #     gs.update_list(toupdate)
+    #
+    # for i in range(len(intention_tp_urls)):
+    #     toupdate = [[intention_tp_date[i], intention_tp_folder[i], intention_tp_urls[i], 'yes', '']]
+    #     time.sleep(1)
+    #     gs.update_list(toupdate)
