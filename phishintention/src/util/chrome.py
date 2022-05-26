@@ -45,6 +45,9 @@ def initialize_chrome_settings(lang_txt:str):
     options.add_argument('--no-sandbox')
     options.add_argument('--disable-dev-shm-usage')
     options.add_argument('--disable-gpu')
+
+    options.add_argument('--headless')
+
     return  options
 
 def vt_scan(url_test):
