@@ -27,7 +27,7 @@ def cv_imread(filePath):
     cv_img = cv2.imdecode(np.fromfile(filePath, dtype=np.uint8), -1)
     return cv_img
 
-def login_config(rcnn_weights_path: str, rcnn_cfg_path: str, threshold=0.05):
+def login_config(rcnn_weights_path: str, rcnn_cfg_path: str, threshold=0.05, cpu=False):
     '''
     Load login button detector configurations
     :param rcnn_weights_path: path to rcnn weights
@@ -41,6 +41,8 @@ def login_config(rcnn_weights_path: str, rcnn_cfg_path: str, threshold=0.05):
     cfg.MODEL.WEIGHTS = rcnn_weights_path
     cfg.MODEL.ROI_HEADS.SCORE_THRESH_TEST = threshold # lower this threshold to report more boxes
     #cfg.MODEL.DEVICE = 'cpu' 
+    if cpu:
+        cfg.MODEL.DEVICE = 'cpu' 
     
     # initialize model
     model = DefaultPredictor(cfg)

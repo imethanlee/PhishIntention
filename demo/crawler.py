@@ -1,13 +1,10 @@
-from lib2to3.pgen2 import driver
 import os
-from matplotlib.pyplot import get
+from urllib import parse
 
-import requests
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from webdriver_manager.chrome import ChromeDriverManager
-import chardet
-from urllib import parse
+
 
 class Crawler:
     def __init__(self, demo_folder_path = "./demo/demo_cache"):
@@ -101,7 +98,7 @@ class Crawler:
         # Step 4: HTML code
         self._get_html_code(html_code_path)
 
-        # Step 5: Return screenshot/html path
+        # Step 5: Return paths
         return {
             "url_folder_path": url_folder_path, 
             "url_path": url_path,
