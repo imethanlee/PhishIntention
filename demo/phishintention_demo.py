@@ -13,7 +13,7 @@ class PhishIntentionDemo:
         self.cpu = args.cpu
         # PhishIntention initialzation (Use full model)
         self.cfg_path = None # None means use default config.yaml
-        self.AWL_MODEL, self.CRP_CLASSIFIER, self.CRP_LOCATOR_MODEL, self.SIAMESE_MODEL, self.OCR_MODEL, self.SIAMESE_THRE, self.LOGO_FEATS, self.LOGO_FILES, self.DOMAIN_MAP_PATH = load_config(self.cfg_path, self.cpu)
+        self.AWL_MODEL, self.CRP_CLASSIFIER, self.CRP_LOCATOR_MODEL, self.SIAMESE_MODEL, self.OCR_MODEL, self.SIAMESE_THRE, self.LOGO_FEATS, self.LOGO_FILES, self.DOMAIN_MAP_PATH = load_config(self.cfg_path, cpu=self.cpu)
     
     def detect(self, url):
         """

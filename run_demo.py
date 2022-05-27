@@ -30,4 +30,5 @@ try:
         "\nTime Cost: {}s".format(end_time - start_time),
         "\nTarget Brand: {}\n".format(target_brand))
 except Exception as e:
+    print(e)
     ...
