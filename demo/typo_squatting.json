@@ -1,0 +1,2560 @@
+{
+    "DBS Group": [
+        {
+            "fuzzer": "*original",
+            "domain": "www.dbs.com.sg",
+            "dns_a": [
+                "104.18.39.67"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.dbc.com.sg",
+            "dns_a": [
+                "103.26.43.131"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.dbr.com.sg",
+            "dns_a": [
+                "34.117.168.233"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.dcs.com.sg",
+            "dns_ns": [
+                "ns2.webhostsg.com"
+            ],
+            "dns_a": [
+                "101.100.210.212"
+            ],
+            "dns_mx": [
+                "mail.dcs.com.sg"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.dfs.com.sg",
+            "dns_ns": [
+                "ns1.hostwus.com"
+            ],
+            "dns_a": [
+                "101.100.204.200"
+            ],
+            "dns_mx": [
+                "dfs.com.sg"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.djs.com.sg",
+            "dns_ns": [
+                "ns1.livehostsupport.com"
+            ],
+            "dns_a": [
+                "119.31.235.70"
+            ],
+            "dns_mx": [
+                "mail.djs.com.sg"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.tbs.com.sg",
+            "dns_ns": [
+                "ns1.itachievement.com"
+            ],
+            "dns_a": [
+                "103.7.8.124"
+            ],
+            "dns_mx": [
+                "tbs-com-sg.mail.protection.outlook.com"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.bbs.com.sg",
+            "dns_ns": [
+                "ns1.bbs.com.sg"
+            ],
+            "dns_a": [
+                "54.36.31.218"
+            ],
+            "dns_mx": [
+                "bbs.com.sg"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.dds.com.sg",
+            "dns_a": [
+                "203.208.135.129"
+            ]
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.bs.com.sg",
+            "dns_ns": [
+                "ns811.sgcloudhosting.com"
+            ],
+            "dns_a": [
+                "103.7.9.29"
+            ],
+            "dns_mx": [
+                "bs.com.sg"
+            ]
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.db.com.sg",
+            "dns_ns": [
+                "ns1.vodien.com"
+            ],
+            "dns_a": [
+                "103.11.190.180"
+            ],
+            "dns_mx": [
+                "in.hes.trendmicro.com"
+            ]
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.ds.com.sg",
+            "dns_ns": [
+                "ns1.vodien.com"
+            ],
+            "dns_a": [
+                "101.100.196.220"
+            ],
+            "dns_mx": [
+                "mail.ds.com.sg"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.cbs.com.sg",
+            "dns_ns": [
+                "pns21.cloudns.net"
+            ],
+            "dns_a": [
+                "103.237.168.8"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.dba.com.sg",
+            "dns_a": [
+                "23.101.27.182"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.dgs.com.sg",
+            "dns_a": [
+                "199.232.45.84"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.dns.com.sg",
+            "dns_ns": [
+                "ns1.freehosting.com"
+            ],
+            "dns_a": [
+                "195.201.179.80"
+            ],
+            "dns_mx": [
+                "mail.dns.com.sg"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.dvs.com.sg",
+            "dns_ns": [
+                "ns0.dnsmadeeasy.com"
+            ],
+            "dns_a": [
+                "203.211.135.158"
+            ],
+            "dns_mx": [
+                "mail.dvs.com.sg"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.sbs.com.sg",
+            "dns_ns": [
+                "ns1.parkingcrew.net"
+            ],
+            "dns_a": [
+                "185.53.177.52"
+            ],
+            "dns_mx": [
+                "mail.h-email.net"
+            ]
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.dsb.com.sg",
+            "dns_ns": [
+                "ns101.mschosting.com"
+            ],
+            "dns_a": [
+                "110.4.45.230"
+            ],
+            "dns_mx": [
+                "dsb.com.sg"
+            ]
+        },
+        {
+            "fuzzer": "various",
+            "domain": "www.dbs.sg",
+            "dns_a": [
+                "165.160.13.20"
+            ]
+        }
+    ],
+    "Overseas Chinese Banking Corporation": [
+        {
+            "fuzzer": "*original",
+            "domain": "www.ocbc.com",
+            "dns_a": [
+                "107.154.196.31"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.ocbca.com",
+            "dns_ns": [
+                "ns69.domaincontrol.com"
+            ],
+            "dns_a": [
+                "34.102.136.180"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.ocbcb.com",
+            "dns_ns": [
+                "ina1.registrar.eu"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.ocbcf.com",
+            "dns_ns": [
+                "ns1.digitalocean.com"
+            ],
+            "dns_a": [
+                "192.241.130.148"
+            ],
+            "dns_aaaa": [
+                "2604:a880:400:d0::d:3001"
+            ],
+            "dns_mx": [
+                "alt1.aspmx.l.google.com"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.ocbcn.com",
+            "dns_ns": [
+                "ns1.ocbcn.com"
+            ],
+            "dns_a": [
+                "54.38.122.243"
+            ],
+            "dns_mx": [
+                "mail.ocbcn.com"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.ocbco.com",
+            "dns_ns": [
+                "ns1.namebrightdns.com"
+            ],
+            "dns_a": [
+                "3.130.204.160"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.ocbcp.com",
+            "dns_a": [
+                "165.160.13.20"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.ocbcs.com",
+            "dns_a": [
+                "34.117.168.233"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.ocbct.com",
+            "dns_a": [
+                "156.239.66.145"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.ocbcw.com",
+            "dns_a": [
+                "107.179.27.58"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.gcbc.com",
+            "dns_a": [
+                "13.112.212.160"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.mcbc.com",
+            "dns_a": [
+                "72.137.253.220"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ncbc.com",
+            "dns_a": [
+                "213.5.173.67"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.oabc.com",
+            "dns_a": [
+                "209.61.212.120"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.obbc.com",
+            "dns_ns": [
+                "ns1.namefind.com"
+            ],
+            "dns_a": [
+                "35.186.238.101"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ocba.com",
+            "dns_a": [
+                "198.185.159.144"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ocbb.com",
+            "dns_ns": [
+                "ns1.smartname.com"
+            ],
+            "dns_a": [
+                "35.186.238.101"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ocbg.com",
+            "dns_a": [
+                "209.61.212.120"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ocbk.com",
+            "dns_ns": [
+                "ns1.uniregistrymarket.link"
+            ],
+            "dns_a": [
+                "52.128.23.153"
+            ],
+            "dns_mx": [
+                "localhost"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ocbs.com",
+            "dns_ns": [
+                "ns1.above.com"
+            ],
+            "dns_a": [
+                "103.224.182.246"
+            ],
+            "dns_mx": [
+                "park-mx.above.com"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.occc.com",
+            "dns_a": [
+                "45.88.202.115"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ocfc.com",
+            "dns_ns": [
+                "ns49.domaincontrol.com"
+            ],
+            "dns_a": [
+                "192.124.249.68"
+            ],
+            "dns_mx": [
+                "ocfc-com.mail.protection.outlook.com"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ocjc.com",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ocrc.com",
+            "dns_ns": [
+                "ns27.domaincontrol.com"
+            ],
+            "dns_a": [
+                "34.102.136.180"
+            ],
+            "dns_mx": [
+                "ocrc-com.mail.protection.outlook.com"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ogbc.com",
+            "dns_ns": [
+                "ns1.namefind.com"
+            ],
+            "dns_a": [
+                "35.186.238.101"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.okbc.com",
+            "dns_ns": [
+                "ns5.afternic.com"
+            ],
+            "dns_a": [
+                "75.2.26.18"
+            ],
+            "dns_mx": [
+                ""
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.osbc.com",
+            "dns_a": [
+                "3.214.232.248"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.0cbc.com",
+            "dns_ns": [
+                "ns1.mytrafficmanagement.com"
+            ],
+            "dns_a": [
+                "173.255.194.134"
+            ],
+            "dns_mx": [
+                "mail.mailerhost.net"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.ocbe.com",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.occlc.com",
+            "dns_a": [
+                "3.130.123.90"
+            ],
+            "dns_aaaa": [
+                "2600:1f16:389:3100:e9b0:cdc3:239e:24c"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.ocdc.com",
+            "dns_ns": [
+                "ns1.site5.com"
+            ],
+            "dns_a": [
+                "162.215.249.59"
+            ],
+            "dns_mx": [
+                "d226122a.ess.barracudanetworks.com"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.ocde.com",
+            "dns_ns": [
+                "ns1.inmotionhosting.com"
+            ],
+            "dns_a": [
+                "199.250.206.28"
+            ],
+            "dns_mx": [
+                "ocde.com"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.ocibc.com",
+            "dns_ns": [
+                "ns29.domaincontrol.com"
+            ],
+            "dns_a": [
+                "34.102.136.180"
+            ],
+            "dns_mx": [
+                "ocibc-com.mail.protection.outlook.com"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.oebc.com",
+            "dns_a": [
+                "209.61.212.120"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.oedc.com",
+            "dns_a": [
+                "209.61.212.120"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.oede.com",
+            "dns_ns": [
+                "ns1.parkingcrew.net"
+            ],
+            "dns_a": [
+                "185.53.177.52"
+            ],
+            "dns_mx": [
+                "mail.h-email.net"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--occ-rxy.com",
+            "dns_ns": [
+                "ns51.domaincontrol.com"
+            ],
+            "dns_a": [
+                "34.102.136.180"
+            ],
+            "dns_mx": [
+                "xnoccrxy-com0mi.mail.protection.outlook.com"
+            ]
+        },
+        {
+            "fuzzer": "hyphenation",
+            "domain": "www.oc-bc.com",
+            "dns_a": [
+                "156.242.204.162"
+            ]
+        },
+        {
+            "fuzzer": "insertion",
+            "domain": "www.ocbhc.com",
+            "dns_ns": [
+                "ams-ns1.websitehostserver.net"
+            ],
+            "dns_a": [
+                "108.178.44.46"
+            ],
+            "dns_mx": [
+                "ocbhc.com"
+            ]
+        },
+        {
+            "fuzzer": "insertion",
+            "domain": "www.ocdbc.com",
+            "dns_a": [
+                "23.234.56.45"
+            ]
+        },
+        {
+            "fuzzer": "insertion",
+            "domain": "www.ocvbc.com",
+            "dns_a": [
+                "199.34.228.59"
+            ]
+        },
+        {
+            "fuzzer": "insertion",
+            "domain": "www.odcbc.com",
+            "dns_a": [
+                "23.81.84.237"
+            ]
+        },
+        {
+            "fuzzer": "insertion",
+            "domain": "www.ofcbc.com",
+            "dns_ns": [
+                "ns1.nexcess.net"
+            ],
+            "dns_a": [
+                "192.190.221.242"
+            ],
+            "dns_mx": [
+                "alt1.aspmx.l.google.com"
+            ]
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.cbc.com",
+            "dns_a": [
+                "121.78.127.249"
+            ]
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.obc.com",
+            "dns_a": [
+                "159.203.53.208"
+            ]
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.ocb.com",
+            "dns_ns": [
+                "ns1.uniregistrymarket.link"
+            ],
+            "dns_a": [
+                "52.128.23.153"
+            ],
+            "dns_mx": [
+                "localhost"
+            ]
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.occ.com",
+            "dns_a": [
+                "208.71.193.147"
+            ]
+        },
+        {
+            "fuzzer": "repetition",
+            "domain": "www.occbc.com",
+            "dns_ns": [
+                "ns1.namebrightdns.com"
+            ],
+            "dns_a": [
+                "3.130.204.160"
+            ]
+        },
+        {
+            "fuzzer": "repetition",
+            "domain": "www.oocbc.com",
+            "dns_a": [
+                "45.43.211.235"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.9cbc.com",
+            "dns_ns": [
+                "pdns01.domaincontrol.com"
+            ],
+            "dns_a": [
+                "104.165.145.36"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.icbc.com",
+            "dns_a": [
+                "198.162.234.203"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.lcbc.com",
+            "dns_a": [
+                "192.64.147.213"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.ocbd.com",
+            "dns_ns": [
+                "ns1.uniregistrymarket.link"
+            ],
+            "dns_a": [
+                "52.128.23.153"
+            ],
+            "dns_mx": [
+                "localhost"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.ocbf.com",
+            "dns_a": [
+                "178.32.45.65"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.ocbv.com",
+            "dns_a": [
+                "207.148.248.143"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.ocbx.com",
+            "dns_a": [
+                "170.178.187.5"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.ocgc.com",
+            "dns_ns": [
+                "ns45.domaincontrol.com"
+            ],
+            "dns_a": [
+                "15.197.142.173"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.ochc.com",
+            "dns_a": [
+                "209.61.212.110"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.ocnc.com",
+            "dns_a": [
+                "209.61.212.120"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.ocvc.com",
+            "dns_ns": [
+                "ns1.namefind.com"
+            ],
+            "dns_a": [
+                "35.186.238.101"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.odbc.com",
+            "dns_a": [
+                "80.195.45.10"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.ofbc.com",
+            "dns_a": [
+                "209.61.212.120"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.ovbc.com",
+            "dns_ns": [
+                "ns-1514.awsdns-61.org"
+            ],
+            "dns_a": [
+                "74.200.39.23"
+            ],
+            "dns_mx": [
+                "us-smtp-inbound-1.mimecast.com"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.oxbc.com",
+            "dns_ns": [
+                "ns1.uniregistrymarket.link"
+            ],
+            "dns_a": [
+                "52.128.23.153"
+            ],
+            "dns_mx": [
+                "localhost"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.pcbc.com",
+            "dns_a": [
+                "34.195.71.176"
+            ]
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.cobc.com",
+            "dns_ns": [
+                "ns1.mytrafficmanagement.com"
+            ],
+            "dns_a": [
+                "173.255.194.134"
+            ],
+            "dns_mx": [
+                "mail.mailerhost.net"
+            ]
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.obcc.com",
+            "dns_ns": [
+                "ns1.smartname.com"
+            ],
+            "dns_a": [
+                "35.186.238.101"
+            ]
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.occb.com",
+            "dns_ns": [
+                "ns3.afternic.com"
+            ],
+            "dns_a": [
+                "13.248.216.40"
+            ],
+            "dns_mx": [
+                ""
+            ]
+        },
+        {
+            "fuzzer": "various",
+            "domain": "wwwocbc.com",
+            "dns_ns": [
+                "ns1.parkingcrew.net"
+            ],
+            "dns_a": [
+                "185.53.177.52"
+            ],
+            "dns_mx": [
+                "mail.h-email.net"
+            ]
+        },
+        {
+            "fuzzer": "vowel-swap",
+            "domain": "www.acbc.com",
+            "dns_a": [
+                "23.227.38.65"
+            ]
+        },
+        {
+            "fuzzer": "vowel-swap",
+            "domain": "www.ecbc.com",
+            "dns_a": [
+                "209.61.212.118"
+            ]
+        },
+        {
+            "fuzzer": "vowel-swap",
+            "domain": "www.ucbc.com",
+            "dns_a": [
+                "104.238.98.78"
+            ]
+        }
+    ],
+    "United Overseas Bank": [
+        {
+            "fuzzer": "*original",
+            "domain": "www.uobgroup.com",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "203.116.108.133"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.uobgroups.com",
+            "dns_a": [
+                "154.88.97.228"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.eobgroup.com",
+            "dns_ns": [
+                "ns1.namebrightdns.com"
+            ],
+            "dns_a": [
+                "3.18.7.81"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.qobgroup.com",
+            "dns_ns": [
+                "ns63.domaincontrol.com"
+            ],
+            "dns_a": [
+                "15.197.142.173"
+            ],
+            "dns_mx": [
+                "mailstore1.secureserver.net"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.tobgroup.com",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "!ServFail"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ugbgroup.com",
+            "dns_ns": [
+                "ns1.namebrightdns.com"
+            ],
+            "dns_a": [
+                "34.205.242.146"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ukbgroup.com",
+            "dns_a": [
+                "199.59.243.220"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.umbgroup.com",
+            "dns_a": [
+                "64.98.135.78"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.unbgroup.com",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.uofgroup.com",
+            "dns_ns": [
+                "ns5.afternic.com"
+            ],
+            "dns_a": [
+                "75.2.26.18"
+            ],
+            "dns_mx": [
+                ""
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.uorgroup.com",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.wobgroup.com",
+            "dns_a": [
+                "82.165.57.150"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.u0bgr0up.com",
+            "dns_a": [
+                "156.241.133.38"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.uobgr0up.com",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "74.220.199.6"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.uodgroup.com",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ]
+        },
+        {
+            "fuzzer": "hyphenation",
+            "domain": "www.uob-group.com",
+            "dns_a": [
+                "91.195.240.117"
+            ]
+        },
+        {
+            "fuzzer": "insertion",
+            "domain": "www.uobgtroup.com",
+            "dns_a": [
+                "164.88.198.101"
+            ]
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.ubgroup.com",
+            "dns_ns": [
+                "ns57.domaincontrol.com"
+            ],
+            "dns_a": [
+                "15.197.142.173"
+            ],
+            "dns_mx": [
+                "mailstore1.secureserver.net"
+            ]
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.uobgrop.com",
+            "dns_ns": [
+                "ns53.domaincontrol.com"
+            ],
+            "dns_a": [
+                "34.102.136.180"
+            ]
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.uobgrup.com",
+            "dns_a": [
+                "199.59.243.220"
+            ]
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.uobroup.com",
+            "dns_ns": [
+                "ns1.parkingcrew.net"
+            ],
+            "dns_a": [
+                "185.53.178.11"
+            ],
+            "dns_mx": [
+                "mail.h-email.net"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.hobgroup.com",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.iobgroup.com",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.jobgroup.com",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "!ServFail"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.uibgroup.com",
+            "dns_a": [
+                "185.151.30.169"
+            ],
+            "dns_aaaa": [
+                "2a07:7800::169"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.ulbgroup.com",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.uoggroup.com",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.uongroup.com",
+            "dns_ns": [
+                "ns33.domaincontrol.com"
+            ],
+            "dns_a": [
+                "213.63.189.6"
+            ],
+            "dns_mx": [
+                "uongroup-com.mail.protection.outlook.com"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.upbgroup.com",
+            "dns_a": [
+                "185.34.216.164"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.yobgroup.com",
+            "dns_a": [
+                "23.227.38.74"
+            ]
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.oubgroup.com",
+            "dns_a": [
+                "13.248.151.237"
+            ]
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.ubogroup.com",
+            "dns_ns": [
+                "ns1.mytrafficmanagement.com"
+            ],
+            "dns_a": [
+                "173.255.194.134"
+            ],
+            "dns_mx": [
+                "mail.mailerhost.net"
+            ]
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.uobgruop.com",
+            "dns_a": [
+                "104.165.162.199"
+            ]
+        },
+        {
+            "fuzzer": "vowel-swap",
+            "domain": "www.aobgroup.com",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "207.148.248.143"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ]
+        },
+        {
+            "fuzzer": "vowel-swap",
+            "domain": "www.oobgroup.com",
+            "dns_ns": [
+                "ns55.domaincontrol.com"
+            ],
+            "dns_a": [
+                "34.98.99.30"
+            ]
+        },
+        {
+            "fuzzer": "vowel-swap",
+            "domain": "www.uabgroup.com",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ]
+        },
+        {
+            "fuzzer": "vowel-swap",
+            "domain": "www.uebgroup.com",
+            "dns_a": [
+                "193.8.149.65"
+            ]
+        },
+        {
+            "fuzzer": "vowel-swap",
+            "domain": "www.uubgroup.com",
+            "dns_ns": [
+                "clns1.iranhost.com"
+            ],
+            "dns_a": [
+                "185.10.74.104"
+            ],
+            "dns_mx": [
+                "uubgroup.com"
+            ]
+        },
+        {
+            "fuzzer": "*original",
+            "domain": "www.uob.com.sg",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "61.8.33.40"
+            ]
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.uo.com.sg",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "!ServFail"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.iob.com.sg",
+            "dns_a": [
+                "203.125.112.3"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.job.com.sg",
+            "dns_ns": [
+                "ns1.above.com"
+            ],
+            "dns_a": [
+                "103.224.182.246"
+            ],
+            "dns_mx": [
+                "park-mx.above.com"
+            ]
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.oub.com.sg",
+            "dns_ns": [
+                "ns1.v216154.serveradd.com"
+            ],
+            "dns_a": [
+                "101.100.216.154"
+            ],
+            "dns_mx": [
+                "oub.com.sg"
+            ]
+        },
+        {
+            "fuzzer": "various",
+            "domain": "www.uob.sg",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "61.8.33.40"
+            ]
+        },
+        {
+            "fuzzer": "vowel-swap",
+            "domain": "www.oob.com.sg",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "!ServFail"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ]
+        }
+    ],
+    "Bank of Singapore": [
+        {
+            "fuzzer": "*original",
+            "domain": "www.bankofsingapore.com",
+            "dns_a": [
+                "45.60.126.168"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.bankofsingapores.com",
+            "dns_a": [
+                "198.54.117.210"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--bnkofsingore-cbbi4424i.com",
+            "dns_ns": [
+                "!ServFail"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--bnkofsingpor-zeb08aia.com",
+            "dns_ns": [
+                "!ServFail"
+            ]
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.bnkofsingapore.com",
+            "dns_a": [
+                "!ServFail"
+            ]
+        },
+        {
+            "fuzzer": "subdomain",
+            "domain": "www.bank.ofsingapore.com",
+            "dns_ns": [
+                "ns1.namebrightdns.com"
+            ],
+            "dns_a": [
+                "18.119.154.66"
+            ]
+        },
+        {
+            "fuzzer": "subdomain",
+            "domain": "www.banko.fsingapore.com",
+            "dns_a": [
+                "66.94.118.137"
+            ]
+        },
+        {
+            "fuzzer": "subdomain",
+            "domain": "www.bankofs.ingapore.com",
+            "dns_ns": [
+                "ns1.namefind.com"
+            ],
+            "dns_a": [
+                "35.186.238.101"
+            ]
+        },
+        {
+            "fuzzer": "subdomain",
+            "domain": "www.bankofsing.apore.com",
+            "dns_ns": [
+                "ns1.parkingcrew.net"
+            ],
+            "dns_a": [
+                "99.83.248.67"
+            ],
+            "dns_mx": [
+                "mail.h-email.net"
+            ]
+        },
+        {
+            "fuzzer": "subdomain",
+            "domain": "www.bankofsinga.pore.com",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ]
+        },
+        {
+            "fuzzer": "subdomain",
+            "domain": "www.bankofsingapo.re.com",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "!ServFail"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ]
+        }
+    ],
+    "Citibank Singapore": [
+        {
+            "fuzzer": "*original",
+            "domain": "www.citibank.com.sg",
+            "dns_a": [
+                "23.74.210.224"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--citbak-0wa76t.com.sg",
+            "dns_ns": [
+                "!ServFail"
+            ]
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.citbank.com.sg",
+            "dns_a": [
+                "13.248.148.254"
+            ]
+        },
+        {
+            "fuzzer": "various",
+            "domain": "www.citibank.sg",
+            "dns_a": [
+                "165.160.13.20"
+            ]
+        }
+    ],
+    "CIC Singapore": [
+        {
+            "fuzzer": "*original",
+            "domain": "www.cic.asia",
+            "dns_a": [
+                "145.226.174.172"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.cice.asia",
+            "dns_a": [
+                "34.215.233.90"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.cicl.asia",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "!ServFail"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.cico.asia",
+            "dns_a": [
+                "208.91.197.91"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.cicr.asia",
+            "dns_a": [
+                "!ServFail"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.cics.asia",
+            "dns_ns": [
+                "ns1.dns.ne.jp"
+            ],
+            "dns_a": [
+                "210.224.185.58"
+            ],
+            "dns_mx": [
+                "cics.asia"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.aic.asia",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.bic.asia",
+            "dns_a": [
+                "217.174.207.108"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.cia.asia",
+            "dns_a": [
+                "91.195.240.103"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.cik.asia",
+            "dns_ns": [
+                "ns1.rumahweb.com"
+            ],
+            "dns_a": [
+                "203.175.9.67"
+            ],
+            "dns_mx": [
+                "cik.asia"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ckc.asia",
+            "dns_a": [
+                "61.220.175.20"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.cmc.asia",
+            "dns_a": [
+                "107.161.23.204"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.cyc.asia",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "!ServFail"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.gic.asia",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.kic.asia",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.sic.asia",
+            "dns_a": [
+                "198.54.117.210"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.cie.asia",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "103.7.9.22"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.cle.asia",
+            "dns_a": [
+                "83.229.87.201"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.eic.asia",
+            "dns_a": [
+                "46.30.211.38"
+            ]
+        },
+        {
+            "fuzzer": "repetition",
+            "domain": "www.ccic.asia",
+            "dns_ns": [
+                "ns1.parklogic.com"
+            ],
+            "dns_a": [
+                "72.52.178.23"
+            ],
+            "dns_mx": [
+                "mx156.hostedmxserver.com"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.cid.asia",
+            "dns_ns": [
+                "dns1.namecheaphosting.com"
+            ],
+            "dns_a": [
+                "198.54.115.240"
+            ],
+            "dns_mx": [
+                "alt1.aspmx.l.google.com"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.cif.asia",
+            "dns_a": [
+                "23.74.215.178"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.cjc.asia",
+            "dns_ns": [
+                "ina1.registrar.eu"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.coc.asia",
+            "dns_a": [
+                "8.210.73.43"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.dic.asia",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "!ServFail"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.fic.asia",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.xic.asia",
+            "dns_a": [
+                "119.3.154.36"
+            ]
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.cci.asia",
+            "dns_a": [
+                "43.135.154.71"
+            ]
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.icc.asia",
+            "dns_a": [
+                "8.140.34.184"
+            ]
+        },
+        {
+            "fuzzer": "vowel-swap",
+            "domain": "www.cec.asia",
+            "dns_ns": [
+                "ns1.web.com.ph"
+            ],
+            "dns_a": [
+                "66.63.178.35"
+            ],
+            "dns_mx": [
+                "cec.asia"
+            ]
+        }
+    ],
+    "HSBC Singapore": [
+        {
+            "fuzzer": "*original",
+            "domain": "www.hsbc.com.sg",
+            "dns_a": [
+                "13.35.20.26"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.hsbs.com.sg",
+            "dns_a": [
+                "104.21.82.88"
+            ],
+            "dns_aaaa": [
+                "2606:4700:3035::ac43:9b71"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.isbc.com.sg",
+            "dns_ns": [
+                "ns-1451.awsdns-53.org"
+            ],
+            "dns_a": [
+                "185.165.123.36"
+            ],
+            "dns_mx": [
+                "mail.isbc.com.sg"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.jsbc.com.sg",
+            "dns_a": [
+                "23.111.138.149"
+            ]
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.hbc.com.sg",
+            "dns_ns": [
+                "ns1.vodadns.com"
+            ],
+            "dns_a": [
+                "149.56.19.101"
+            ],
+            "dns_mx": [
+                "hbc.com.sg"
+            ]
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.hsb.com.sg",
+            "dns_ns": [
+                "ns184.mschosting.com"
+            ],
+            "dns_a": [
+                "103.6.196.103"
+            ],
+            "dns_mx": [
+                "hsb.com.sg"
+            ]
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.hsc.com.sg",
+            "dns_a": [
+                "121.200.240.180"
+            ]
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.hbsc.com.sg",
+            "dns_a": [
+                "43.227.231.117"
+            ]
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.shbc.com.sg",
+            "dns_ns": [
+                "ns1.shbc.com.org"
+            ],
+            "dns_a": [
+                "192.124.249.18"
+            ],
+            "dns_mx": [
+                "shbc.com.sg"
+            ]
+        },
+        {
+            "fuzzer": "various",
+            "domain": "www.hsbc.sg",
+            "dns_a": [
+                "193.108.75.62"
+            ]
+        }
+    ],
+    "Maybank Singapore": [
+        {
+            "fuzzer": "*original",
+            "domain": "www.maybank2u.com.sg",
+            "dns_a": [
+                "23.44.5.114"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.maybank2e.com.sg",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--aybank2-6sb4457d.com.sg",
+            "dns_aaaa": [
+                "!ServFail"
+            ]
+        },
+        {
+            "fuzzer": "various",
+            "domain": "www.maybank2u.sg",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "!ServFail"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ]
+        }
+    ],
+    "Standard Chartered Bank": [
+        {
+            "fuzzer": "*original",
+            "domain": "www.sc.com",
+            "dns_a": [
+                "23.74.31.94"
+            ],
+            "dns_aaaa": [
+                "2600:1417:3f:1287::6dc"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sc0.com",
+            "dns_ns": [
+                "ns1.register.it"
+            ],
+            "dns_a": [
+                "127.0.0.1"
+            ],
+            "dns_mx": [
+                "mail.register.it"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sc1.com",
+            "dns_a": [
+                "205.178.189.129"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sc2.com",
+            "dns_ns": [
+                "a.ns.interland.net"
+            ],
+            "dns_a": [
+                "209.237.151.16"
+            ],
+            "dns_mx": [
+                "inbound.registeredsite.com"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sc3.com",
+            "dns_a": [
+                "3.1.113.64"
+            ],
+            "dns_aaaa": [
+                "2406:da18:880:3800:cfab:d821:9cec:e3b3"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sc4.com",
+            "dns_a": [
+                "24.249.81.43"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sc5.com",
+            "dns_a": [
+                "24.249.81.43"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sc6.com",
+            "dns_a": [
+                "54.208.21.117"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sc7.com",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "160.19.50.6"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sc8.com",
+            "dns_a": [
+                "89.187.160.86"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sc9.com",
+            "dns_a": [
+                "13.248.148.254"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sca.com",
+            "dns_a": [
+                "13.107.213.59"
+            ],
+            "dns_aaaa": [
+                "2620:1ec:46::59"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scb.com",
+            "dns_a": [
+                "23.108.108.219"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scc.com",
+            "dns_a": [
+                "18.134.92.130"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scd.com",
+            "dns_ns": [
+                "dns01.frontline.net"
+            ],
+            "dns_a": [
+                "66.59.64.116"
+            ],
+            "dns_mx": [
+                "frontline-mx.email-protect.gosecure.net"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sce.com",
+            "dns_a": [
+                "45.60.83.211"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scf.com",
+            "dns_ns": [
+                "ns57.domaincontrol.com"
+            ],
+            "dns_a": [
+                "192.124.249.4"
+            ],
+            "dns_mx": [
+                "scf-com.mail.protection.outlook.com"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scg.com",
+            "dns_a": [
+                "203.155.20.23"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sch.com",
+            "dns_a": [
+                "23.220.203.16"
+            ],
+            "dns_aaaa": [
+                "2600:1417:3f::b81b:7b69"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sci.com",
+            "dns_a": [
+                "45.60.35.122"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sck.com",
+            "dns_ns": [
+                "ns71.domaincontrol.com"
+            ],
+            "dns_a": [
+                "160.153.33.225"
+            ],
+            "dns_mx": [
+                "sck-com.mail.protection.outlook.com"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scl.com",
+            "dns_ns": [
+                "ns1.uniregistrymarket.link"
+            ],
+            "dns_a": [
+                "52.128.23.153"
+            ],
+            "dns_mx": [
+                "localhost"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scm.com",
+            "dns_a": [
+                "116.202.128.111"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scn.com",
+            "dns_a": [
+                "91.206.235.151"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sco.com",
+            "dns_a": [
+                "132.147.224.134"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scp.com",
+            "dns_a": [
+                "47.101.44.227"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scq.com",
+            "dns_a": [
+                "18.166.248.208"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scr.com",
+            "dns_ns": [
+                "ns1.searchfusion.com"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scs.com",
+            "dns_a": [
+                "104.238.71.140"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scu.com",
+            "dns_a": [
+                "108.59.160.10"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scv.com",
+            "dns_a": [
+                "75.119.218.44"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scw.com",
+            "dns_a": [
+                "74.208.236.21"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scx.com",
+            "dns_ns": [
+                "ns31.domaincontrol.com"
+            ],
+            "dns_a": [
+                "15.197.142.173"
+            ],
+            "dns_mx": [
+                "mx1.emailsrvr.com"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scy.com",
+            "dns_ns": [
+                "ns1.searchfusion.com"
+            ]
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scz.com",
+            "dns_ns": [
+                "dns1.dnscotashosting.com"
+            ],
+            "dns_a": [
+                "200.58.160.105"
+            ],
+            "dns_mx": [
+                "mail.scz.com"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.3c.com",
+            "dns_a": [
+                "54.175.211.104"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.cc.com",
+            "dns_a": [
+                "23.74.210.102"
+            ],
+            "dns_aaaa": [
+                "2600:1417:3f:794::2215"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.rc.com",
+            "dns_a": [
+                "104.247.40.150"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.sa.com",
+            "dns_ns": [
+                "ns0.centralnic-dns.com"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.sb.com",
+            "dns_ns": [
+                "dns1.idp365.net"
+            ],
+            "dns_a": [
+                "217.19.248.132"
+            ],
+            "dns_mx": [
+                "mail.imgw.com"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.sg.com",
+            "dns_a": [
+                "35.238.244.227"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.sk.com",
+            "dns_a": [
+                "61.97.13.93"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ss.com",
+            "dns_a": [
+                "194.105.56.170"
+            ]
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.wc.com",
+            "dns_a": [
+                "52.0.182.193"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.se.com",
+            "dns_a": [
+                "23.74.221.92"
+            ],
+            "dns_aaaa": [
+                "2600:1417:3f:78e::783"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--e-4ma.com",
+            "dns_a": [
+                "185.29.17.174"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--s-0ha.com",
+            "dns_ns": [
+                "ns07.domaincontrol.com"
+            ],
+            "dns_a": [
+                "34.102.136.180"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--s-8fa.com",
+            "dns_ns": [
+                "dns1.registrar-servers.com"
+            ],
+            "dns_a": [
+                "99.83.154.118"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--s-bga.com",
+            "dns_ns": [
+                "ns1.parkingcrew.net"
+            ],
+            "dns_a": [
+                "185.53.177.50"
+            ],
+            "dns_mx": [
+                "mail.h-email.net"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--s-dga.com",
+            "dns_ns": [
+                "dns1.registrar-servers.com"
+            ],
+            "dns_a": [
+                "99.83.154.118"
+            ],
+            "dns_mx": [
+                "mail.h-email.net"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--s-fga.com",
+            "dns_ns": [
+                "ns55.domaincontrol.com"
+            ],
+            "dns_a": [
+                "34.98.99.30"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--s-xia.com",
+            "dns_ns": [
+                "ns35.domaincontrol.com"
+            ],
+            "dns_a": [
+                "34.102.136.180"
+            ]
+        },
+        {
+            "fuzzer": "hyphenation",
+            "domain": "www.s-c.com",
+            "dns_a": [
+                "172.66.40.189"
+            ],
+            "dns_aaaa": [
+                "2606:4700:3108::ac42:28bd"
+            ]
+        },
+        {
+            "fuzzer": "repetition",
+            "domain": "www.ssc.com",
+            "dns_ns": [
+                "ns19.domaincontrol.com"
+            ],
+            "dns_a": [
+                "34.102.136.180"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.dc.com",
+            "dns_ns": [
+                "ns-1005.awsdns-61.net"
+            ],
+            "dns_a": [
+                "151.101.1.67"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.sd.com",
+            "dns_a": [
+                "74.125.200.121"
+            ],
+            "dns_aaaa": [
+                "2404:6800:4003:c00::79"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.sf.com",
+            "dns_a": [
+                "193.97.129.99"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.sv.com",
+            "dns_a": [
+                "162.242.150.89"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.xc.com",
+            "dns_a": [
+                "175.24.255.229"
+            ]
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.yc.com",
+            "dns_a": [
+                "64.99.64.37"
+            ]
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.cs.com",
+            "dns_a": [
+                "106.10.236.37"
+            ]
+        },
+        {
+            "fuzzer": "various",
+            "domain": "www-sc.com",
+            "dns_ns": [
+                "ns1.gname.net"
+            ],
+            "dns_a": [
+                "172.247.215.241"
+            ]
+        },
+        {
+            "fuzzer": "various",
+            "domain": "www.sccom.com",
+            "dns_ns": [
+                "ns1.dan.com"
+            ],
+            "dns_a": [
+                "3.64.163.50"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ]
+        },
+        {
+            "fuzzer": "various",
+            "domain": "wwwsc.com",
+            "dns_ns": [
+                "ns1.parkingcrew.net"
+            ],
+            "dns_a": [
+                "185.53.177.52"
+            ]
+        }
+    ],
+    "RHB Bank": [
+        {
+            "fuzzer": "*original",
+            "domain": "rhbgroup.com.sg",
+            "dns_ns": [
+                "ns-1251.awsdns-28.org"
+            ],
+            "dns_a": [
+                "13.224.250.17"
+            ]
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "xn--rhgrup-exa97i.com.sg",
+            "dns_ns": [
+                "!ServFail"
+            ]
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "rbgroup.com.sg",
+            "dns_ns": [
+                "dns1.pacific.net.sg"
+            ],
+            "dns_mx": [
+                "mxcorp1.pacific.net.sg"
+            ]
+        },
+        {
+            "fuzzer": "subdomain",
+            "domain": "rh.bgroup.com.sg",
+            "dns_a": [
+                "103.11.189.156"
+            ]
+        }
+    ]
+}

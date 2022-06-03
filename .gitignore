@@ -6,3 +6,7 @@ discovery_results/
 **/*.npy
 demo/demo_cache
 root.sh
+.vscode/
+phishing_dataset
+test_benign_new.txt
+test_phishing_new.txt

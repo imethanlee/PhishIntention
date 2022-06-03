@@ -69,7 +69,6 @@ class Crawler:
         capabilities["unexpectedAlertBehaviour"] = "dismiss"  # handle alert
         capabilities["pageLoadStrategy"] = "eager"  # eager mode #FIXME: set eager mode, may load partial webpage
 
-
     def crawl(self, url):
         # Step 0: Check accessibility of the url
         try:

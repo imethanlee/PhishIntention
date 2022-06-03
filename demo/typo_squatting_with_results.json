@@ -1,0 +1,3880 @@
+{
+    "DBS Group": [
+        {
+            "fuzzer": "*original",
+            "domain": "www.dbs.com.sg",
+            "dns_a": [
+                "104.18.39.67"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 3.031320333480835,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.dbs.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.dbc.com.sg",
+            "dns_a": [
+                "103.26.43.131"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 1.9401636123657227,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.dbc.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.dbr.com.sg",
+            "dns_a": [
+                "34.117.168.233"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 3.922304391860962,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.dbr.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.dcs.com.sg",
+            "dns_ns": [
+                "ns2.webhostsg.com"
+            ],
+            "dns_a": [
+                "101.100.210.212"
+            ],
+            "dns_mx": [
+                "mail.dcs.com.sg"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.dfs.com.sg",
+            "dns_ns": [
+                "ns1.hostwus.com"
+            ],
+            "dns_a": [
+                "101.100.204.200"
+            ],
+            "dns_mx": [
+                "dfs.com.sg"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 1.9124863147735596,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.dfs.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.djs.com.sg",
+            "dns_ns": [
+                "ns1.livehostsupport.com"
+            ],
+            "dns_a": [
+                "119.31.235.70"
+            ],
+            "dns_mx": [
+                "mail.djs.com.sg"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 5.045811653137207,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.djs.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.tbs.com.sg",
+            "dns_ns": [
+                "ns1.itachievement.com"
+            ],
+            "dns_a": [
+                "103.7.8.124"
+            ],
+            "dns_mx": [
+                "tbs-com-sg.mail.protection.outlook.com"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 7.8324806690216064,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.tbs.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.bbs.com.sg",
+            "dns_ns": [
+                "ns1.bbs.com.sg"
+            ],
+            "dns_a": [
+                "54.36.31.218"
+            ],
+            "dns_mx": [
+                "bbs.com.sg"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 3.8018171787261963,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.bbs.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.dds.com.sg",
+            "dns_a": [
+                "203.208.135.129"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.bs.com.sg",
+            "dns_ns": [
+                "ns811.sgcloudhosting.com"
+            ],
+            "dns_a": [
+                "103.7.9.29"
+            ],
+            "dns_mx": [
+                "bs.com.sg"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 3.3915858268737793,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.bs.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.db.com.sg",
+            "dns_ns": [
+                "ns1.vodien.com"
+            ],
+            "dns_a": [
+                "103.11.190.180"
+            ],
+            "dns_mx": [
+                "in.hes.trendmicro.com"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 5.816124200820923,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.db.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.ds.com.sg",
+            "dns_ns": [
+                "ns1.vodien.com"
+            ],
+            "dns_a": [
+                "101.100.196.220"
+            ],
+            "dns_mx": [
+                "mail.ds.com.sg"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 3.650872230529785,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.ds.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.cbs.com.sg",
+            "dns_ns": [
+                "pns21.cloudns.net"
+            ],
+            "dns_a": [
+                "103.237.168.8"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 6.922205448150635,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.cbs.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.dba.com.sg",
+            "dns_a": [
+                "23.101.27.182"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 6.127009153366089,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.dba.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.dgs.com.sg",
+            "dns_a": [
+                "199.232.45.84"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 6.063295125961304,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.dgs.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.dns.com.sg",
+            "dns_ns": [
+                "ns1.freehosting.com"
+            ],
+            "dns_a": [
+                "195.201.179.80"
+            ],
+            "dns_mx": [
+                "mail.dns.com.sg"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 5.050257682800293,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.dns.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.dvs.com.sg",
+            "dns_ns": [
+                "ns0.dnsmadeeasy.com"
+            ],
+            "dns_a": [
+                "203.211.135.158"
+            ],
+            "dns_mx": [
+                "mail.dvs.com.sg"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 5.3021063804626465,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.dvs.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.sbs.com.sg",
+            "dns_ns": [
+                "ns1.parkingcrew.net"
+            ],
+            "dns_a": [
+                "185.53.177.52"
+            ],
+            "dns_mx": [
+                "mail.h-email.net"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 7.407545804977417,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.sbs.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.dsb.com.sg",
+            "dns_ns": [
+                "ns101.mschosting.com"
+            ],
+            "dns_a": [
+                "110.4.45.230"
+            ],
+            "dns_mx": [
+                "dsb.com.sg"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 5.92994236946106,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.dsb.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "various",
+            "domain": "www.dbs.sg",
+            "dns_a": [
+                "165.160.13.20"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        }
+    ],
+    "Overseas Chinese Banking Corporation": [
+        {
+            "fuzzer": "*original",
+            "domain": "www.ocbc.com",
+            "dns_a": [
+                "107.154.196.31"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 7.784462213516235,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.ocbc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.ocbca.com",
+            "dns_ns": [
+                "ns69.domaincontrol.com"
+            ],
+            "dns_a": [
+                "34.102.136.180"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.ocbcb.com",
+            "dns_ns": [
+                "ina1.registrar.eu"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.ocbcf.com",
+            "dns_ns": [
+                "ns1.digitalocean.com"
+            ],
+            "dns_a": [
+                "192.241.130.148"
+            ],
+            "dns_aaaa": [
+                "2604:a880:400:d0::d:3001"
+            ],
+            "dns_mx": [
+                "alt1.aspmx.l.google.com"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.ocbcn.com",
+            "dns_ns": [
+                "ns1.ocbcn.com"
+            ],
+            "dns_a": [
+                "54.38.122.243"
+            ],
+            "dns_mx": [
+                "mail.ocbcn.com"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 11.46974492073059,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.ocbcn.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.ocbco.com",
+            "dns_ns": [
+                "ns1.namebrightdns.com"
+            ],
+            "dns_a": [
+                "3.130.204.160"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.ocbcp.com",
+            "dns_a": [
+                "165.160.13.20"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.ocbcs.com",
+            "dns_a": [
+                "34.117.168.233"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 7.539833307266235,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.ocbcs.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.ocbct.com",
+            "dns_a": [
+                "156.239.66.145"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.ocbcw.com",
+            "dns_a": [
+                "107.179.27.58"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.gcbc.com",
+            "dns_a": [
+                "13.112.212.160"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 9.87321925163269,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.gcbc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.mcbc.com",
+            "dns_a": [
+                "72.137.253.220"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 15.213598012924194,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.mcbc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ncbc.com",
+            "dns_a": [
+                "213.5.173.67"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 16.166630506515503,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.ncbc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.oabc.com",
+            "dns_a": [
+                "209.61.212.120"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.obbc.com",
+            "dns_ns": [
+                "ns1.namefind.com"
+            ],
+            "dns_a": [
+                "35.186.238.101"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ocba.com",
+            "dns_a": [
+                "198.185.159.144"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 12.269093036651611,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.ocba.com/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ocbb.com",
+            "dns_ns": [
+                "ns1.smartname.com"
+            ],
+            "dns_a": [
+                "35.186.238.101"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ocbg.com",
+            "dns_a": [
+                "209.61.212.120"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ocbk.com",
+            "dns_ns": [
+                "ns1.uniregistrymarket.link"
+            ],
+            "dns_a": [
+                "52.128.23.153"
+            ],
+            "dns_mx": [
+                "localhost"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ocbs.com",
+            "dns_ns": [
+                "ns1.above.com"
+            ],
+            "dns_a": [
+                "103.224.182.246"
+            ],
+            "dns_mx": [
+                "park-mx.above.com"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 15.822664976119995,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.ocbs.com/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.occc.com",
+            "dns_a": [
+                "45.88.202.115"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 11.552494287490845,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.occc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ocfc.com",
+            "dns_ns": [
+                "ns49.domaincontrol.com"
+            ],
+            "dns_a": [
+                "192.124.249.68"
+            ],
+            "dns_mx": [
+                "ocfc-com.mail.protection.outlook.com"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 15.219928741455078,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.ocfc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ocjc.com",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ocrc.com",
+            "dns_ns": [
+                "ns27.domaincontrol.com"
+            ],
+            "dns_a": [
+                "34.102.136.180"
+            ],
+            "dns_mx": [
+                "ocrc-com.mail.protection.outlook.com"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ogbc.com",
+            "dns_ns": [
+                "ns1.namefind.com"
+            ],
+            "dns_a": [
+                "35.186.238.101"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.okbc.com",
+            "dns_ns": [
+                "ns5.afternic.com"
+            ],
+            "dns_a": [
+                "75.2.26.18"
+            ],
+            "dns_mx": [
+                ""
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.osbc.com",
+            "dns_a": [
+                "3.214.232.248"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 15.011449098587036,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.osbc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.0cbc.com",
+            "dns_ns": [
+                "ns1.mytrafficmanagement.com"
+            ],
+            "dns_a": [
+                "173.255.194.134"
+            ],
+            "dns_mx": [
+                "mail.mailerhost.net"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 10.379284143447876,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.0cbc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.ocbe.com",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.occlc.com",
+            "dns_a": [
+                "3.130.123.90"
+            ],
+            "dns_aaaa": [
+                "2600:1f16:389:3100:e9b0:cdc3:239e:24c"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.ocdc.com",
+            "dns_ns": [
+                "ns1.site5.com"
+            ],
+            "dns_a": [
+                "162.215.249.59"
+            ],
+            "dns_mx": [
+                "d226122a.ess.barracudanetworks.com"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 12.953206062316895,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.ocdc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.ocde.com",
+            "dns_ns": [
+                "ns1.inmotionhosting.com"
+            ],
+            "dns_a": [
+                "199.250.206.28"
+            ],
+            "dns_mx": [
+                "ocde.com"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 11.784738063812256,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.ocde.com/object_detection.png"
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.ocibc.com",
+            "dns_ns": [
+                "ns29.domaincontrol.com"
+            ],
+            "dns_a": [
+                "34.102.136.180"
+            ],
+            "dns_mx": [
+                "ocibc-com.mail.protection.outlook.com"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.oebc.com",
+            "dns_a": [
+                "209.61.212.120"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.oedc.com",
+            "dns_a": [
+                "209.61.212.120"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.oede.com",
+            "dns_ns": [
+                "ns1.parkingcrew.net"
+            ],
+            "dns_a": [
+                "185.53.177.52"
+            ],
+            "dns_mx": [
+                "mail.h-email.net"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--occ-rxy.com",
+            "dns_ns": [
+                "ns51.domaincontrol.com"
+            ],
+            "dns_a": [
+                "34.102.136.180"
+            ],
+            "dns_mx": [
+                "xnoccrxy-com0mi.mail.protection.outlook.com"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "hyphenation",
+            "domain": "www.oc-bc.com",
+            "dns_a": [
+                "156.242.204.162"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "insertion",
+            "domain": "www.ocbhc.com",
+            "dns_ns": [
+                "ams-ns1.websitehostserver.net"
+            ],
+            "dns_a": [
+                "108.178.44.46"
+            ],
+            "dns_mx": [
+                "ocbhc.com"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 19.025007724761963,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.ocbhc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "insertion",
+            "domain": "www.ocdbc.com",
+            "dns_a": [
+                "23.234.56.45"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "insertion",
+            "domain": "www.ocvbc.com",
+            "dns_a": [
+                "199.34.228.59"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 11.486178636550903,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.ocvbc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "insertion",
+            "domain": "www.odcbc.com",
+            "dns_a": [
+                "23.81.84.237"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "insertion",
+            "domain": "www.ofcbc.com",
+            "dns_ns": [
+                "ns1.nexcess.net"
+            ],
+            "dns_a": [
+                "192.190.221.242"
+            ],
+            "dns_mx": [
+                "alt1.aspmx.l.google.com"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 14.42392635345459,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.ofcbc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.cbc.com",
+            "dns_a": [
+                "121.78.127.249"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.obc.com",
+            "dns_a": [
+                "159.203.53.208"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 12.702637672424316,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.obc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.ocb.com",
+            "dns_ns": [
+                "ns1.uniregistrymarket.link"
+            ],
+            "dns_a": [
+                "52.128.23.153"
+            ],
+            "dns_mx": [
+                "localhost"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.occ.com",
+            "dns_a": [
+                "208.71.193.147"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "repetition",
+            "domain": "www.occbc.com",
+            "dns_ns": [
+                "ns1.namebrightdns.com"
+            ],
+            "dns_a": [
+                "3.130.204.160"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "repetition",
+            "domain": "www.oocbc.com",
+            "dns_a": [
+                "45.43.211.235"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.9cbc.com",
+            "dns_ns": [
+                "pdns01.domaincontrol.com"
+            ],
+            "dns_a": [
+                "104.165.145.36"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.icbc.com",
+            "dns_a": [
+                "198.162.234.203"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 18.246368408203125,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.icbc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.lcbc.com",
+            "dns_a": [
+                "192.64.147.213"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.ocbd.com",
+            "dns_ns": [
+                "ns1.uniregistrymarket.link"
+            ],
+            "dns_a": [
+                "52.128.23.153"
+            ],
+            "dns_mx": [
+                "localhost"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.ocbf.com",
+            "dns_a": [
+                "178.32.45.65"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 15.322118520736694,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.ocbf.com/object_detection.png"
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.ocbv.com",
+            "dns_a": [
+                "207.148.248.143"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.ocbx.com",
+            "dns_a": [
+                "170.178.187.5"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.ocgc.com",
+            "dns_ns": [
+                "ns45.domaincontrol.com"
+            ],
+            "dns_a": [
+                "15.197.142.173"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.ochc.com",
+            "dns_a": [
+                "209.61.212.110"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.ocnc.com",
+            "dns_a": [
+                "209.61.212.120"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.ocvc.com",
+            "dns_ns": [
+                "ns1.namefind.com"
+            ],
+            "dns_a": [
+                "35.186.238.101"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.odbc.com",
+            "dns_a": [
+                "80.195.45.10"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 13.822092056274414,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.odbc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.ofbc.com",
+            "dns_a": [
+                "209.61.212.120"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.ovbc.com",
+            "dns_ns": [
+                "ns-1514.awsdns-61.org"
+            ],
+            "dns_a": [
+                "74.200.39.23"
+            ],
+            "dns_mx": [
+                "us-smtp-inbound-1.mimecast.com"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 15.228902339935303,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.ovbc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.oxbc.com",
+            "dns_ns": [
+                "ns1.uniregistrymarket.link"
+            ],
+            "dns_a": [
+                "52.128.23.153"
+            ],
+            "dns_mx": [
+                "localhost"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.pcbc.com",
+            "dns_a": [
+                "34.195.71.176"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.cobc.com",
+            "dns_ns": [
+                "ns1.mytrafficmanagement.com"
+            ],
+            "dns_a": [
+                "173.255.194.134"
+            ],
+            "dns_mx": [
+                "mail.mailerhost.net"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 13.590043067932129,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.cobc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.obcc.com",
+            "dns_ns": [
+                "ns1.smartname.com"
+            ],
+            "dns_a": [
+                "35.186.238.101"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.occb.com",
+            "dns_ns": [
+                "ns3.afternic.com"
+            ],
+            "dns_a": [
+                "13.248.216.40"
+            ],
+            "dns_mx": [
+                ""
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "various",
+            "domain": "wwwocbc.com",
+            "dns_ns": [
+                "ns1.parkingcrew.net"
+            ],
+            "dns_a": [
+                "185.53.177.52"
+            ],
+            "dns_mx": [
+                "mail.h-email.net"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 15.12372875213623,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/wwwocbc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "vowel-swap",
+            "domain": "www.acbc.com",
+            "dns_a": [
+                "23.227.38.65"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 21.46101474761963,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.acbc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "vowel-swap",
+            "domain": "www.ecbc.com",
+            "dns_a": [
+                "209.61.212.118"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "vowel-swap",
+            "domain": "www.ucbc.com",
+            "dns_a": [
+                "104.238.98.78"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        }
+    ],
+    "United Overseas Bank": [
+        {
+            "fuzzer": "*original",
+            "domain": "www.uobgroup.com",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "203.116.108.133"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 15.092477083206177,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.uobgroup.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.uobgroups.com",
+            "dns_a": [
+                "154.88.97.228"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.eobgroup.com",
+            "dns_ns": [
+                "ns1.namebrightdns.com"
+            ],
+            "dns_a": [
+                "3.18.7.81"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.qobgroup.com",
+            "dns_ns": [
+                "ns63.domaincontrol.com"
+            ],
+            "dns_a": [
+                "15.197.142.173"
+            ],
+            "dns_mx": [
+                "mailstore1.secureserver.net"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.tobgroup.com",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "!ServFail"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ugbgroup.com",
+            "dns_ns": [
+                "ns1.namebrightdns.com"
+            ],
+            "dns_a": [
+                "34.205.242.146"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ukbgroup.com",
+            "dns_a": [
+                "199.59.243.220"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 14.555700778961182,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.ukbgroup.com/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.umbgroup.com",
+            "dns_a": [
+                "64.98.135.78"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.unbgroup.com",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.uofgroup.com",
+            "dns_ns": [
+                "ns5.afternic.com"
+            ],
+            "dns_a": [
+                "75.2.26.18"
+            ],
+            "dns_mx": [
+                ""
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.uorgroup.com",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.wobgroup.com",
+            "dns_a": [
+                "82.165.57.150"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 14.205127239227295,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.wobgroup.com/object_detection.png"
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.u0bgr0up.com",
+            "dns_a": [
+                "156.241.133.38"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.uobgr0up.com",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "74.220.199.6"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.uodgroup.com",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "hyphenation",
+            "domain": "www.uob-group.com",
+            "dns_a": [
+                "91.195.240.117"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "insertion",
+            "domain": "www.uobgtroup.com",
+            "dns_a": [
+                "164.88.198.101"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 16.624367237091064,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.uobgtroup.com/object_detection.png"
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.ubgroup.com",
+            "dns_ns": [
+                "ns57.domaincontrol.com"
+            ],
+            "dns_a": [
+                "15.197.142.173"
+            ],
+            "dns_mx": [
+                "mailstore1.secureserver.net"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.uobgrop.com",
+            "dns_ns": [
+                "ns53.domaincontrol.com"
+            ],
+            "dns_a": [
+                "34.102.136.180"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.uobgrup.com",
+            "dns_a": [
+                "199.59.243.220"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 15.826231479644775,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.uobgrup.com/object_detection.png"
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.uobroup.com",
+            "dns_ns": [
+                "ns1.parkingcrew.net"
+            ],
+            "dns_a": [
+                "185.53.178.11"
+            ],
+            "dns_mx": [
+                "mail.h-email.net"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 17.064117908477783,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.uobroup.com/object_detection.png"
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.hobgroup.com",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 16.170021057128906,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.hobgroup.com/object_detection.png"
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.iobgroup.com",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.jobgroup.com",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "!ServFail"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.uibgroup.com",
+            "dns_a": [
+                "185.151.30.169"
+            ],
+            "dns_aaaa": [
+                "2a07:7800::169"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 20.2954683303833,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.uibgroup.com/object_detection.png"
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.ulbgroup.com",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.uoggroup.com",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 16.898670434951782,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.uoggroup.com/object_detection.png"
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.uongroup.com",
+            "dns_ns": [
+                "ns33.domaincontrol.com"
+            ],
+            "dns_a": [
+                "213.63.189.6"
+            ],
+            "dns_mx": [
+                "uongroup-com.mail.protection.outlook.com"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 19.025191068649292,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.uongroup.com/object_detection.png"
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.upbgroup.com",
+            "dns_a": [
+                "185.34.216.164"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 21.28558373451233,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.upbgroup.com/object_detection.png"
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.yobgroup.com",
+            "dns_a": [
+                "23.227.38.74"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 25.968510627746582,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.yobgroup.com/object_detection.png"
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.oubgroup.com",
+            "dns_a": [
+                "13.248.151.237"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.ubogroup.com",
+            "dns_ns": [
+                "ns1.mytrafficmanagement.com"
+            ],
+            "dns_a": [
+                "173.255.194.134"
+            ],
+            "dns_mx": [
+                "mail.mailerhost.net"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 18.01904320716858,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.ubogroup.com/object_detection.png"
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.uobgruop.com",
+            "dns_a": [
+                "104.165.162.199"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "vowel-swap",
+            "domain": "www.aobgroup.com",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "207.148.248.143"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "vowel-swap",
+            "domain": "www.oobgroup.com",
+            "dns_ns": [
+                "ns55.domaincontrol.com"
+            ],
+            "dns_a": [
+                "34.98.99.30"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "vowel-swap",
+            "domain": "www.uabgroup.com",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 18.01107430458069,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.uabgroup.com/object_detection.png"
+        },
+        {
+            "fuzzer": "vowel-swap",
+            "domain": "www.uebgroup.com",
+            "dns_a": [
+                "193.8.149.65"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "vowel-swap",
+            "domain": "www.uubgroup.com",
+            "dns_ns": [
+                "clns1.iranhost.com"
+            ],
+            "dns_a": [
+                "185.10.74.104"
+            ],
+            "dns_mx": [
+                "uubgroup.com"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 25.750429391860962,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.uubgroup.com/object_detection.png"
+        },
+        {
+            "fuzzer": "*original",
+            "domain": "www.uob.com.sg",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "61.8.33.40"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 19.973621606826782,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.uob.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.uo.com.sg",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "!ServFail"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.iob.com.sg",
+            "dns_a": [
+                "203.125.112.3"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.job.com.sg",
+            "dns_ns": [
+                "ns1.above.com"
+            ],
+            "dns_a": [
+                "103.224.182.246"
+            ],
+            "dns_mx": [
+                "park-mx.above.com"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.oub.com.sg",
+            "dns_ns": [
+                "ns1.v216154.serveradd.com"
+            ],
+            "dns_a": [
+                "101.100.216.154"
+            ],
+            "dns_mx": [
+                "oub.com.sg"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 22.54447650909424,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.oub.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "various",
+            "domain": "www.uob.sg",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "61.8.33.40"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 19.98859405517578,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.uob.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "vowel-swap",
+            "domain": "www.oob.com.sg",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "!ServFail"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        }
+    ],
+    "Bank of Singapore": [
+        {
+            "fuzzer": "*original",
+            "domain": "www.bankofsingapore.com",
+            "dns_a": [
+                "45.60.126.168"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 19.61316680908203,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.bankofsingapore.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.bankofsingapores.com",
+            "dns_a": [
+                "198.54.117.210"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--bnkofsingore-cbbi4424i.com",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--bnkofsingpor-zeb08aia.com",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.bnkofsingapore.com",
+            "dns_a": [
+                "!ServFail"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "subdomain",
+            "domain": "www.bank.ofsingapore.com",
+            "dns_ns": [
+                "ns1.namebrightdns.com"
+            ],
+            "dns_a": [
+                "18.119.154.66"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "subdomain",
+            "domain": "www.banko.fsingapore.com",
+            "dns_a": [
+                "66.94.118.137"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "subdomain",
+            "domain": "www.bankofs.ingapore.com",
+            "dns_ns": [
+                "ns1.namefind.com"
+            ],
+            "dns_a": [
+                "35.186.238.101"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "subdomain",
+            "domain": "www.bankofsing.apore.com",
+            "dns_ns": [
+                "ns1.parkingcrew.net"
+            ],
+            "dns_a": [
+                "99.83.248.67"
+            ],
+            "dns_mx": [
+                "mail.h-email.net"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "subdomain",
+            "domain": "www.bankofsinga.pore.com",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "subdomain",
+            "domain": "www.bankofsingapo.re.com",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "!ServFail"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        }
+    ],
+    "Citibank Singapore": [
+        {
+            "fuzzer": "*original",
+            "domain": "www.citibank.com.sg",
+            "dns_a": [
+                "23.74.210.224"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 20.104005813598633,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.citibank.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--citbak-0wa76t.com.sg",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.citbank.com.sg",
+            "dns_a": [
+                "13.248.148.254"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "various",
+            "domain": "www.citibank.sg",
+            "dns_a": [
+                "165.160.13.20"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        }
+    ],
+    "CIC Singapore": [
+        {
+            "fuzzer": "*original",
+            "domain": "www.cic.asia",
+            "dns_a": [
+                "145.226.174.172"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 25.26608896255493,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.cic.asia/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.cice.asia",
+            "dns_a": [
+                "34.215.233.90"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.cicl.asia",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "!ServFail"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.cico.asia",
+            "dns_a": [
+                "208.91.197.91"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 19.955042600631714,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.cico.asia/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.cicr.asia",
+            "dns_a": [
+                "!ServFail"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.cics.asia",
+            "dns_ns": [
+                "ns1.dns.ne.jp"
+            ],
+            "dns_a": [
+                "210.224.185.58"
+            ],
+            "dns_mx": [
+                "cics.asia"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.aic.asia",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 21.087634801864624,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.aic.asia/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.bic.asia",
+            "dns_a": [
+                "217.174.207.108"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.cia.asia",
+            "dns_a": [
+                "91.195.240.103"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.cik.asia",
+            "dns_ns": [
+                "ns1.rumahweb.com"
+            ],
+            "dns_a": [
+                "203.175.9.67"
+            ],
+            "dns_mx": [
+                "cik.asia"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 21.835155248641968,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.cik.asia/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ckc.asia",
+            "dns_a": [
+                "61.220.175.20"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.cmc.asia",
+            "dns_a": [
+                "107.161.23.204"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.cyc.asia",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "!ServFail"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.gic.asia",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 21.239142179489136,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.gic.asia/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.kic.asia",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.sic.asia",
+            "dns_a": [
+                "198.54.117.210"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.cie.asia",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "103.7.9.22"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 21.744035720825195,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.cie.asia/object_detection.png"
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.cle.asia",
+            "dns_a": [
+                "83.229.87.201"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.eic.asia",
+            "dns_a": [
+                "46.30.211.38"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 22.145543336868286,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.eic.asia/object_detection.png"
+        },
+        {
+            "fuzzer": "repetition",
+            "domain": "www.ccic.asia",
+            "dns_ns": [
+                "ns1.parklogic.com"
+            ],
+            "dns_a": [
+                "72.52.178.23"
+            ],
+            "dns_mx": [
+                "mx156.hostedmxserver.com"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.cid.asia",
+            "dns_ns": [
+                "dns1.namecheaphosting.com"
+            ],
+            "dns_a": [
+                "198.54.115.240"
+            ],
+            "dns_mx": [
+                "alt1.aspmx.l.google.com"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 24.986284017562866,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.cid.asia/object_detection.png"
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.cif.asia",
+            "dns_a": [
+                "23.74.215.178"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 22.32072639465332,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.cif.asia/object_detection.png"
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.cjc.asia",
+            "dns_ns": [
+                "ina1.registrar.eu"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.coc.asia",
+            "dns_a": [
+                "8.210.73.43"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.dic.asia",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "!ServFail"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.fic.asia",
+            "dns_ns": [
+                "ns1.sedoparking.com"
+            ],
+            "dns_a": [
+                "64.190.63.111"
+            ],
+            "dns_mx": [
+                "localhost"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.xic.asia",
+            "dns_a": [
+                "119.3.154.36"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 22.500843286514282,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.xic.asia/object_detection.png"
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.cci.asia",
+            "dns_a": [
+                "43.135.154.71"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.icc.asia",
+            "dns_a": [
+                "8.140.34.184"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "vowel-swap",
+            "domain": "www.cec.asia",
+            "dns_ns": [
+                "ns1.web.com.ph"
+            ],
+            "dns_a": [
+                "66.63.178.35"
+            ],
+            "dns_mx": [
+                "cec.asia"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 24.91148352622986,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.cec.asia/object_detection.png"
+        }
+    ],
+    "HSBC Singapore": [
+        {
+            "fuzzer": "*original",
+            "domain": "www.hsbc.com.sg",
+            "dns_a": [
+                "13.35.20.26"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 23.252073049545288,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.hsbc.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.hsbs.com.sg",
+            "dns_a": [
+                "104.21.82.88"
+            ],
+            "dns_aaaa": [
+                "2606:4700:3035::ac43:9b71"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 23.359298706054688,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.hsbs.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.isbc.com.sg",
+            "dns_ns": [
+                "ns-1451.awsdns-53.org"
+            ],
+            "dns_a": [
+                "185.165.123.36"
+            ],
+            "dns_mx": [
+                "mail.isbc.com.sg"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 23.333190202713013,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.isbc.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.jsbc.com.sg",
+            "dns_a": [
+                "23.111.138.149"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.hbc.com.sg",
+            "dns_ns": [
+                "ns1.vodadns.com"
+            ],
+            "dns_a": [
+                "149.56.19.101"
+            ],
+            "dns_mx": [
+                "hbc.com.sg"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 24.28528904914856,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.hbc.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.hsb.com.sg",
+            "dns_ns": [
+                "ns184.mschosting.com"
+            ],
+            "dns_a": [
+                "103.6.196.103"
+            ],
+            "dns_mx": [
+                "hsb.com.sg"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "www.hsc.com.sg",
+            "dns_a": [
+                "121.200.240.180"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 30.85118269920349,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.hsc.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.hbsc.com.sg",
+            "dns_a": [
+                "43.227.231.117"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.shbc.com.sg",
+            "dns_ns": [
+                "ns1.shbc.com.org"
+            ],
+            "dns_a": [
+                "192.124.249.18"
+            ],
+            "dns_mx": [
+                "shbc.com.sg"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 30.635708808898926,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.shbc.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "various",
+            "domain": "www.hsbc.sg",
+            "dns_a": [
+                "193.108.75.62"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 31.69806408882141,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.hsbc.sg/object_detection.png"
+        }
+    ],
+    "Maybank Singapore": [
+        {
+            "fuzzer": "*original",
+            "domain": "www.maybank2u.com.sg",
+            "dns_a": [
+                "23.44.5.114"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 25.759846925735474,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.maybank2u.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.maybank2e.com.sg",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--aybank2-6sb4457d.com.sg",
+            "dns_aaaa": [
+                "!ServFail"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "various",
+            "domain": "www.maybank2u.sg",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "!ServFail"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        }
+    ],
+    "Standard Chartered Bank": [
+        {
+            "fuzzer": "*original",
+            "domain": "www.sc.com",
+            "dns_a": [
+                "23.74.31.94"
+            ],
+            "dns_aaaa": [
+                "2600:1417:3f:1287::6dc"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 24.962051391601562,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.sc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sc0.com",
+            "dns_ns": [
+                "ns1.register.it"
+            ],
+            "dns_a": [
+                "127.0.0.1"
+            ],
+            "dns_mx": [
+                "mail.register.it"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sc1.com",
+            "dns_a": [
+                "205.178.189.129"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sc2.com",
+            "dns_ns": [
+                "a.ns.interland.net"
+            ],
+            "dns_a": [
+                "209.237.151.16"
+            ],
+            "dns_mx": [
+                "inbound.registeredsite.com"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 27.14279079437256,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.sc2.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sc3.com",
+            "dns_a": [
+                "3.1.113.64"
+            ],
+            "dns_aaaa": [
+                "2406:da18:880:3800:cfab:d821:9cec:e3b3"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 25.964669942855835,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.sc3.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sc4.com",
+            "dns_a": [
+                "24.249.81.43"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sc5.com",
+            "dns_a": [
+                "24.249.81.43"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sc6.com",
+            "dns_a": [
+                "54.208.21.117"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sc7.com",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "dns_a": [
+                "160.19.50.6"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sc8.com",
+            "dns_a": [
+                "89.187.160.86"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 31.591798782348633,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.sc8.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sc9.com",
+            "dns_a": [
+                "13.248.148.254"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sca.com",
+            "dns_a": [
+                "13.107.213.59"
+            ],
+            "dns_aaaa": [
+                "2620:1ec:46::59"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scb.com",
+            "dns_a": [
+                "23.108.108.219"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 27.56191110610962,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.scb.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scc.com",
+            "dns_a": [
+                "18.134.92.130"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 28.611960887908936,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.scc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scd.com",
+            "dns_ns": [
+                "dns01.frontline.net"
+            ],
+            "dns_a": [
+                "66.59.64.116"
+            ],
+            "dns_mx": [
+                "frontline-mx.email-protect.gosecure.net"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 28.71723961830139,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.scd.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sce.com",
+            "dns_a": [
+                "45.60.83.211"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 33.004626750946045,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.sce.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scf.com",
+            "dns_ns": [
+                "ns57.domaincontrol.com"
+            ],
+            "dns_a": [
+                "192.124.249.4"
+            ],
+            "dns_mx": [
+                "scf-com.mail.protection.outlook.com"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 34.1579053401947,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.scf.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scg.com",
+            "dns_a": [
+                "203.155.20.23"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 27.351167917251587,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.scg.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sch.com",
+            "dns_a": [
+                "23.220.203.16"
+            ],
+            "dns_aaaa": [
+                "2600:1417:3f::b81b:7b69"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 29.341774463653564,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.sch.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sci.com",
+            "dns_a": [
+                "45.60.35.122"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 35.71320915222168,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.sci.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sck.com",
+            "dns_ns": [
+                "ns71.domaincontrol.com"
+            ],
+            "dns_a": [
+                "160.153.33.225"
+            ],
+            "dns_mx": [
+                "sck-com.mail.protection.outlook.com"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 28.84446930885315,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.sck.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scl.com",
+            "dns_ns": [
+                "ns1.uniregistrymarket.link"
+            ],
+            "dns_a": [
+                "52.128.23.153"
+            ],
+            "dns_mx": [
+                "localhost"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scm.com",
+            "dns_a": [
+                "116.202.128.111"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 30.001126766204834,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.scm.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scn.com",
+            "dns_a": [
+                "91.206.235.151"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.sco.com",
+            "dns_a": [
+                "132.147.224.134"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scp.com",
+            "dns_a": [
+                "47.101.44.227"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scq.com",
+            "dns_a": [
+                "18.166.248.208"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scr.com",
+            "dns_ns": [
+                "ns1.searchfusion.com"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 30.224536418914795,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.scr.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scs.com",
+            "dns_a": [
+                "104.238.71.140"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 31.313933610916138,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.scs.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scu.com",
+            "dns_a": [
+                "108.59.160.10"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scv.com",
+            "dns_a": [
+                "75.119.218.44"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 30.704801082611084,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.scv.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scw.com",
+            "dns_a": [
+                "74.208.236.21"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 33.40609169006348,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.scw.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scx.com",
+            "dns_ns": [
+                "ns31.domaincontrol.com"
+            ],
+            "dns_a": [
+                "15.197.142.173"
+            ],
+            "dns_mx": [
+                "mx1.emailsrvr.com"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scy.com",
+            "dns_ns": [
+                "ns1.searchfusion.com"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 30.85824203491211,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.scy.com/object_detection.png"
+        },
+        {
+            "fuzzer": "addition",
+            "domain": "www.scz.com",
+            "dns_ns": [
+                "dns1.dnscotashosting.com"
+            ],
+            "dns_a": [
+                "200.58.160.105"
+            ],
+            "dns_mx": [
+                "mail.scz.com"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 32.42715668678284,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.scz.com/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.3c.com",
+            "dns_a": [
+                "54.175.211.104"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 35.18950915336609,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.3c.com/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.cc.com",
+            "dns_a": [
+                "23.74.210.102"
+            ],
+            "dns_aaaa": [
+                "2600:1417:3f:794::2215"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 32.978766441345215,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.cc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.rc.com",
+            "dns_a": [
+                "104.247.40.150"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 36.68257141113281,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.rc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.sa.com",
+            "dns_ns": [
+                "ns0.centralnic-dns.com"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.sb.com",
+            "dns_ns": [
+                "dns1.idp365.net"
+            ],
+            "dns_a": [
+                "217.19.248.132"
+            ],
+            "dns_mx": [
+                "mail.imgw.com"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.sg.com",
+            "dns_a": [
+                "35.238.244.227"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.sk.com",
+            "dns_a": [
+                "61.97.13.93"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.ss.com",
+            "dns_a": [
+                "194.105.56.170"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 33.008360862731934,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.ss.com/object_detection.png"
+        },
+        {
+            "fuzzer": "bitsquatting",
+            "domain": "www.wc.com",
+            "dns_a": [
+                "52.0.182.193"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 33.6371545791626,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.wc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.se.com",
+            "dns_a": [
+                "23.74.221.92"
+            ],
+            "dns_aaaa": [
+                "2600:1417:3f:78e::783"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 33.76825571060181,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.se.com/object_detection.png"
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--e-4ma.com",
+            "dns_a": [
+                "185.29.17.174"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 32.97739315032959,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.xn--e-4ma.com/object_detection.png"
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--s-0ha.com",
+            "dns_ns": [
+                "ns07.domaincontrol.com"
+            ],
+            "dns_a": [
+                "34.102.136.180"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--s-8fa.com",
+            "dns_ns": [
+                "dns1.registrar-servers.com"
+            ],
+            "dns_a": [
+                "99.83.154.118"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--s-bga.com",
+            "dns_ns": [
+                "ns1.parkingcrew.net"
+            ],
+            "dns_a": [
+                "185.53.177.50"
+            ],
+            "dns_mx": [
+                "mail.h-email.net"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 34.487826108932495,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.xn--s-bga.com/object_detection.png"
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--s-dga.com",
+            "dns_ns": [
+                "dns1.registrar-servers.com"
+            ],
+            "dns_a": [
+                "99.83.154.118"
+            ],
+            "dns_mx": [
+                "mail.h-email.net"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--s-fga.com",
+            "dns_ns": [
+                "ns55.domaincontrol.com"
+            ],
+            "dns_a": [
+                "34.98.99.30"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "www.xn--s-xia.com",
+            "dns_ns": [
+                "ns35.domaincontrol.com"
+            ],
+            "dns_a": [
+                "34.102.136.180"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "hyphenation",
+            "domain": "www.s-c.com",
+            "dns_a": [
+                "172.66.40.189"
+            ],
+            "dns_aaaa": [
+                "2606:4700:3108::ac42:28bd"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 37.56602096557617,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.s-c.com/object_detection.png"
+        },
+        {
+            "fuzzer": "repetition",
+            "domain": "www.ssc.com",
+            "dns_ns": [
+                "ns19.domaincontrol.com"
+            ],
+            "dns_a": [
+                "34.102.136.180"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.dc.com",
+            "dns_ns": [
+                "ns-1005.awsdns-61.net"
+            ],
+            "dns_a": [
+                "151.101.1.67"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 32.61171746253967,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.dc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.sd.com",
+            "dns_a": [
+                "74.125.200.121"
+            ],
+            "dns_aaaa": [
+                "2404:6800:4003:c00::79"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.sf.com",
+            "dns_a": [
+                "193.97.129.99"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 36.248884439468384,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.sf.com/object_detection.png"
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.sv.com",
+            "dns_a": [
+                "162.242.150.89"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.xc.com",
+            "dns_a": [
+                "175.24.255.229"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 35.911612033843994,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.xc.com/object_detection.png"
+        },
+        {
+            "fuzzer": "replacement",
+            "domain": "www.yc.com",
+            "dns_a": [
+                "64.99.64.37"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "transposition",
+            "domain": "www.cs.com",
+            "dns_a": [
+                "106.10.236.37"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 37.46698474884033,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.cs.com/object_detection.png"
+        },
+        {
+            "fuzzer": "various",
+            "domain": "www-sc.com",
+            "dns_ns": [
+                "ns1.gname.net"
+            ],
+            "dns_a": [
+                "172.247.215.241"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "various",
+            "domain": "www.sccom.com",
+            "dns_ns": [
+                "ns1.dan.com"
+            ],
+            "dns_a": [
+                "3.64.163.50"
+            ],
+            "dns_aaaa": [
+                "!ServFail"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 36.40348935127258,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/www.sccom.com/object_detection.png"
+        },
+        {
+            "fuzzer": "various",
+            "domain": "wwwsc.com",
+            "dns_ns": [
+                "ns1.parkingcrew.net"
+            ],
+            "dns_a": [
+                "185.53.177.52"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 41.94761085510254,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/wwwsc.com/object_detection.png"
+        }
+    ],
+    "RHB Bank": [
+        {
+            "fuzzer": "*original",
+            "domain": "rhbgroup.com.sg",
+            "dns_ns": [
+                "ns-1251.awsdns-28.org"
+            ],
+            "dns_a": [
+                "13.224.250.17"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 41.676791191101074,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/rhbgroup.com.sg/object_detection.png"
+        },
+        {
+            "fuzzer": "homoglyph",
+            "domain": "xn--rhgrup-exa97i.com.sg",
+            "dns_ns": [
+                "!ServFail"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "omission",
+            "domain": "rbgroup.com.sg",
+            "dns_ns": [
+                "dns1.pacific.net.sg"
+            ],
+            "dns_mx": [
+                "mxcorp1.pacific.net.sg"
+            ],
+            "is_accessible": false,
+            "is_phishing": false,
+            "time_cost": 0,
+            "target_brand": null,
+            "object_detection_img_path": null
+        },
+        {
+            "fuzzer": "subdomain",
+            "domain": "rh.bgroup.com.sg",
+            "dns_a": [
+                "103.11.189.156"
+            ],
+            "is_accessible": true,
+            "is_phishing": false,
+            "time_cost": 34.61138391494751,
+            "target_brand": null,
+            "object_detection_img_path": "./demo/demo_cache/rh.bgroup.com.sg/object_detection.png"
+        }
+    ]
+}
